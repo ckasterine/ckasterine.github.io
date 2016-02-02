@@ -1,0 +1,453 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing:border-box;
+ }
+
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  text-align: left;
+}
+
+hr {
+  clear: both;
+  width: 100%;
+  display: block;
+  height: .05em;
+  background-color: #333;
+  border: none;
+}
+
+nav {
+  background-color: white;
+  float: right;
+}
+
+h1 { 
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+}
+
+p {
+  font-size: 1em;
+  display: block;
+  line-height: 1.5em;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+}
+
+a.contact {
+  color: #999;
+  text-decoration: none;
+}
+
+a.contact:hover {
+  color: #;
+  text-decoration: underline;
+}
+
+a.citation-link {
+  color: #333;
+  font-style: italic;
+  text-decoration: none;
+  float: right;
+}
+
+a.citation-link:hover  {
+  color: #333;
+  font-style: italic;
+  text-decoration: underline;
+  float: right;
+}
+
+a.galleries {
+  float: left;
+  text-decoration: none;
+  font-weight: 700;
+  color: #999;
+}
+
+a.galleries:hover {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #333;
+}
+
+a.home {
+  float: left;
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+  padding: 1em;
+}
+
+a.home:hover {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #663333;
+}
+
+a.logo-link {
+  font-family: "acta-display", serif;
+  color: #333;
+  text-decoration: none;
+}
+
+a.logo-link:hover {
+  font-family: "acta-display", serif;
+  text-decoration: none;
+}
+
+a.sub {
+  color: #333;
+  text-decoration: none;
+}
+
+a.sub:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+h1.nb-header {
+  padding: .5em 1em .5em 1em;
+  display: block;
+}
+
+h1.nb-photos-header {
+  padding: .5em 1em .5em 0;
+  margin: 0;
+  text-align: left;
+  width: 65%;
+  float: right;
+}
+
+h1.nb-book-header {
+  padding: .5em 1em .5em 0;
+  margin: 0;
+  text-align: right;
+  width: 65%;
+  float: left;
+  padding: 4em 2em 8.68em 2em;
+}
+
+img.nb-photos {
+  width: 33%;
+  }
+
+img.nb-book {
+  width: 40%;
+  }
+
+img.nb-align-center {
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+}
+
+img.g01-row-a {
+  float: left;
+  width: 25%;
+  padding: 0 .5em 1em .5em;
+}
+
+img.g02-top {
+  width:100%;
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+  display: block;
+}
+
+img.g02-row {
+  float: left;
+  width: 25%;
+  padding: 0 .5em 1em .5em;
+}
+
+img.g03-row-a {
+  float: left;
+  width: 25%;
+  padding: 0 1em 0 0;
+}
+
+img.g03-row-b{
+  float: left;
+  width: 25%;
+  padding: 1em 1em 0 0;
+}
+
+img.g04-top {
+  width:50%;
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+  display: block;
+}
+
+img.g05-row-a {
+  float: left;
+  width: 20%;
+  padding: 0 .5em 0 .5em;
+}
+
+img.g05-row-b {
+  float: left;
+  width: 20%;
+  padding: .5em .5em 0 .5em;
+}
+
+li.photo {
+  display: inline-block;
+  position: relative;
+  margin: .0 0 0 1em;
+  padding: .2em 1.5em 0 0;
+  font-family: "Georgia", "Times", serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+li.photo-page {
+  display: inline-block;
+  position: relative;
+  margin: .0 0 0 1em;
+  padding: .2em 1.5em 0 0;
+  font-family: "Georgia", "Times", serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #333;
+}
+
+p.copyright {
+  text-decoration: none;
+  color: #999;
+  width:100%;
+  float: left;
+}
+
+p.gallery-text {
+  font-size: 1.1em;
+  width: 100%; 
+  text-align: justify;
+  padding: 1em 4em 0 4em;
+}
+
+p.logo-page {
+  font-size: 1.7em; 
+  display: inline;
+  padding: .3em 0 0 0;
+  position: absolute;
+}
+
+p.nb-film-txt {
+  width: 100%; 
+  text-align: justify;
+  padding: 1em 4em 3em 4em;
+  background-color: #fff;
+}
+
+p.nb-wal-txt{
+  font-size: 1.1em;
+  width: 100%; 
+  text-align: justify;
+  padding: 1em 4em 1em 4em;
+  background-color: #fff;
+}
+
+/*p.photo-text {
+  clear: both;
+  font-size: 1.1em;
+  width: 100%; 
+  text-align: justify;
+  padding: 1em 4em 1em 4em;
+  background-color: #fff;
+}*/
+
+.clearfix:after {
+  height: 0;
+  font-size:0;
+  visibility: hidden;
+  display: block;
+  content:" ";
+  clear: both;
+}
+
+.current-page {
+  color: #333;
+}
+
+.figure-wrap {
+width:1020px;
+margin: 3em 0 0 0;
+}
+
+.g01-row-1 {
+  float: left;
+  width: 27%;
+  margin: 0 2.8em 0 0;
+}
+
+.g01-row-2-left {
+  float: left;
+  width: 27%;
+  margin: -17.3em 0 0 0;
+}
+
+.g01-row-2-rght {
+  float: left;
+  width: 27%;
+  margin: -17.3em 20em 0;
+}
+
+.nav-align {
+  float: left;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1.5em 1.3em 0 1.3em;
+}
+
+.nav-bot-align {
+display: block;
+width: 50%;
+padding: 1em 0 0 0;
+margin: 0 auto;
+}
+
+.page-footer {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  float: left;
+  display: block;
+  padding: 10px;
+}
+
+.photo-page-small {
+  font-family: serif;
+  font-weight: 400;
+  font-size: .7em;
+}
+
+.sub-align {
+display: block;
+margin: 3em 0 0 0;
+position: absolute;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#g01-kubrick {
+  width: 37%;
+  float: left;
+  }
+
+#g01-greer {
+  width: 37%;
+  float: left;
+  margin: -17em 35em 0 40em;
+  }
+
+#g05-row-b-03 {
+  margin: -4em 0 0 0;
+}
+
+#g05-row-b-04 {
+  margin: -8em 0 0 0;
+}
+
+#g05-row-b-14 {
+  margin: -5em 0 0 .01em;
+}
+
+#g05-row-b-15 {
+  margin: -5em 0 0 0;
+}
+
+#g05-row-b-16 {
+  margin: -4em 0 0 0;
+}
+
+#g05-row-b-22 {
+  margin: -12em 0 0 0;
+}
+
+#home-footer {
+  clear: both;
+  width: 100%;
+  position: absolute;
+  float: left;
+  display: block;
+  margin: 52em 0 0 -10em;
+}
+
+#home-img {
+  background: url("../images/01_kasterine_home.jpg") no-repeat center center fixed;
+  background-color: #fff;
+  background-size: 90%;
+}
+
+#home-imgtitle {
+  float: right;
+  color: #333;
+  font-style: italic;
+  font-weight: 300;
+  text-align: right;
+}
+
+#home-logo {
+  font-family: "acta-display", serif;
+  font-weight: 300; 
+  font-size: 2em; 
+  color: #333;
+  display: inline;
+  margin: 0 0 .5em 0;
+  position: absolute;
+  background-color: white;
+}
+
+#nb-book-lft-col {
+  float: left;
+  width: 60%;
+  background-color: #fff;
+  padding: 4em 2em 8.68em 2em;
+}
+
+#nb-film-sect {
+  background-color: #333;
+}
+
+#nb-pge-colr {
+background-color: #333;
+}
+
+#nb-photos-rght-col {
+  float: right;
+  width: 67%;
+  background-color: #fff;
+  padding: 1em 1em 3.2em 1em;
+}
+
+#nb-photos-sect {
+  background-color: #999;
+  height: 4em;
+}
+
+#nb-subtext {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .75em;
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: none;
+  color: #fff;
+}
