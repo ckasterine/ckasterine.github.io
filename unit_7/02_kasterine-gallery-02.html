@@ -6,6 +6,12 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://use.typekit.net/cja8inl.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<!-- 	Add jQuery library -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<!-- Add fancyBox jQuery and CSS -->	
+		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -30,15 +36,24 @@
 		   	</header>
 			<main>
 				<section class="clearfix figure-wrap">
-					<img src="images/02_kasterine_g02_fig02.jpg" alt="Paul Theroux by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig03.jpg" alt="Francesco Clemente by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig04.jpg" alt="Jean-Michel Basquiat by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig05.jpg" alt="Kinga by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig06.jpg" alt="Graham Greene by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig07.jpg" alt="Rainer Fetting by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig08.jpg" alt="Francis Bacon by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig09.jpg" alt="Edward Albee by Dmitri Kasterine" class="g02-row">
-					<img src="images/02_kasterine_g02_fig01.jpg" alt="Barrow boy, World's End by Dmitri Kasterine" class="g02-top">
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig02-z.jpg" title="Paul Theroux, London, 1976 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig02.jpg" alt="Paul Theroux by Dmitri Kasterine" class="g02-row"></a>
+					
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig03-z.jpg" title="Francesco Clemente, NYC, 1986 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig03.jpg" alt="Francesco Clemente by Dmitri Kasterine" class="g02-row"></a>
+					
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig04-z.jpg" title="Jean-Michel Basquiat, NYC, 1988 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig04.jpg" alt="Jean-Michel Basquiat by Dmitri Kasterine" class="g02-row"></a>
+					
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig05-z.jpg" title="Kinga, Stowe, Vermont, 2001 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig05.jpg" alt="Kinga by Dmitri Kasterine" class="g02-row"></a>
+
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig06-z.jpg" title="Graham Greene, Antibe, France, 1981 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig06.jpg" alt="Graham Greene by Dmitri Kasterine" class="g02-row"></a>
+
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig07-z.jpg" title="Edward Albee, Montauk, NY, 1983 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig07.jpg" alt="Edward Albee by Dmitri Kasterine" class="g02-row"></a>
+
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig08-z.jpg" title="Francis Bacon, London, 1976 - Dmitri Kasterine">
+					<img src="images/02_kasterine_g02_fig08.jpg" alt="Francis Bacon by Dmitri Kasterine" class="g02-row"></a>
+
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig09-z.jpg" title="Rainer Fetting, NYC, 1985 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig09.jpg" alt="Rainer Fetting by Dmitri Kasterine" class="g02-row"></a>
+
+					<a class="fancybox" rel="group" href="images/02_kasterine_g02_fig01-z.jpg" title="Barrow Boy, World's End, 1963 - Dmitri Kasterine"><img src="images/02_kasterine_g02_fig01.jpg" alt="Barrow Boy, World's End by Dmitri Kasterine" class="g02-top"></a>
 				</section>
 				<section>
 					<p class="gallery-text">Here is some txt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -71,5 +86,10 @@
 				</div>
 			</footer>
 		</div>
+			<script type="text/javascript">
+			$(document).ready(function() {
+			$(".fancybox").fancybox();
+			});
+			</script>
 	</body>
 </html>

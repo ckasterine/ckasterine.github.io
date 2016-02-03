@@ -6,6 +6,12 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://use.typekit.net/cja8inl.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<!-- 	Add jQuery library -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<!-- Add fancyBox jQuery and CSS -->	
+		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -30,26 +36,30 @@
 		   </header>
 			<main>
 				<section class="clearfix figure-wrap">
-					<img src="images/02_kasterine_g03_fig01.jpg" alt="John J Lease by Dmitri Kasterine" class="g03-row-a">
-					<img src="images/02_kasterine_g03_fig02.jpg" alt="Girl with friend's baby by Dmitri Kasterine" class="g03-row-a">
-					<img src="images/02_kasterine_g03_fig03.jpg" alt="Toni Rose by Dmitri Kasterine" class="g03-row-a">
-					<img src="images/02_kasterine_g03_fig04.jpg" alt="Ruth by Dmitri Kasterine" class="g03-row-a">
-					<img src="images/02_kasterine_g03_fig05.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig06.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig07.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig08.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig09.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig10.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig11.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig12.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig13.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig14.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig15.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig16.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig17.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig18.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig19.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
-					<img src="images/02_kasterine_g03_fig20.jpg" alt="Newburgh by Dmitri Kasterine" class="g03-row-b">
+					<div class="g03-row-a">
+						<img src="images/02_kasterine_g03_fig01.jpg" alt="John J Lease by Dmitri Kasterine"> <!-- class="g03-row-a"> -->
+						<img src="images/02_kasterine_g03_fig02.jpg" alt="Girl with friend's baby by Dmitri Kasterine"> <!-- class="g03-row-a"> -->
+						<img src="images/02_kasterine_g03_fig03.jpg" alt="Toni Rose by Dmitri Kasterine"> <!-- class="g03-row-a"> -->
+						<img src="images/02_kasterine_g03_fig04.jpg" alt="Ruth by Dmitri Kasterine"> <!-- class="g03-row-a"> -->
+					</div>
+					<div class="g03-row-b">
+						<img src="images/02_kasterine_g03_fig05.jpg" alt="Newburgh by Dmitri Kasterine"> <!-- class="g03-row-b" -->
+						<img src="images/02_kasterine_g03_fig06.jpg" alt="Newburgh by Dmitri Kasterine"> <!-- class="g03-row-b" -->
+						<img src="images/02_kasterine_g03_fig07.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig08.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig09.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig10.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig11.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig12.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig13.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig14.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig15.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig16.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig17.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig18.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig19.jpg" alt="Newburgh by Dmitri Kasterine">
+						<img src="images/02_kasterine_g03_fig20.jpg" alt="Newburgh by Dmitri Kasterine">
+					</div>
 				</section>
 				<section>
 					<p class="gallery-text">Here is some txt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
