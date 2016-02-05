@@ -153,27 +153,45 @@ img.nb-align-center {
   width: 100%;
 }
 
-img.g01-row-a {
+/*img.g01-row-a {
   float: left;
   width: 25%;
   padding: 0 .5em 1em .5em;
-}
+}*/
 
-img.g02-top {
-  width:100%;
-  /*margin: 0 auto;*/
-  padding: 1em;
-  /*display: block;*/
-  /*background-color: red;*/
+/*.g01-row {
+  margin: 1em 0 0 0;
+}*/
 
-}
-
-/*img.g02-row {
+.g01-row-1 {
   float: left;
-  width: 25%;
-  padding: 0 .5em 1em .5em;
+  /*width: 27%;*/
+  margin: 1em 2.8em 0 0;
 }
-*/
+
+.g01-row-2-left {
+  float: left;
+  /*width: 27%;*/
+  margin: -17.3em 0 0 0;
+}
+
+.g01-row-2-rght {
+  float: left;
+  /*width: 27%;*/
+  margin: -17.3em 20em 0;
+}
+
+.g01-rect {
+/*  width: 37%;*/
+  float: left;
+  margin: 1em 0 0 0;
+  }
+
+/*#g01-greer {
+  width: 37%;
+  float: left;
+  margin: -17em 35em 0 40em;
+  }*/
 
 .g02-row {
   width:100%;
@@ -182,26 +200,27 @@ img.g02-top {
 }
 
 .g02-row img {
-padding: 0 0 1em 0;
-margin-left: 1.5em;
-width: 22%;
+/*padding: 0 0 1em 0;*/
+  margin: 1em 1em 0 .5em;
+/*width: 22%;*/
 /*background-color: yellow;*/
 }
 
-.g03-row-a {
+/*.g03-row-a {
   float: left;  
 }
 
 .g03-row-a img {
-  padding: 0 1em 0 1em;
+  margin: 0 1.5em 0 1em;
 }
-
-.g03-row-b {
+*/
+.g03-row {
+  width:100%;
   float: left;
 }
 
-.g03-row-b img {
-  padding: 1em 1em 0 1em;
+.g03-row img {
+  margin: 1em 1.5em 0 1em;
 }
 
 img.g04-top {
@@ -214,6 +233,7 @@ img.g04-top {
 img.g05-row-a {
   float: left;
   width: 20%;
+  margin: 1em 0 0 0;
   padding: 0 .5em 0 .5em;
 }
 
@@ -309,23 +329,7 @@ margin: 3em 0 0 0;
 
 }
 
-.g01-row-1 {
-  float: left;
-  width: 27%;
-  margin: 0 2.8em 0 0;
-}
 
-.g01-row-2-left {
-  float: left;
-  width: 27%;
-  margin: -17.3em 0 0 0;
-}
-
-.g01-row-2-rght {
-  float: left;
-  width: 27%;
-  margin: -17.3em 20em 0;
-}
 
 .nav-align {
   float: left;
@@ -369,16 +373,10 @@ position: absolute;
   margin: 0 auto;
 }
 
-#g01-kubrick {
-  width: 37%;
-  float: left;
-  }
-
-#g01-greer {
-  width: 37%;
-  float: left;
-  margin: -17em 35em 0 40em;
-  }
+#g02-barrow {
+  width:100%;
+  padding: 1em;
+}
 
 #g05-row-b-03 {
   margin: -4em 0 0 0;
