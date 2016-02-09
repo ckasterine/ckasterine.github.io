@@ -1,8 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Amiri:400);
+
 * {
   margin: 0; 
   padding: 0;
   box-sizing:border-box;
  }
+header {
+  /*margin: 1em 0 1em 0;*/
+  padding: .5em .5em 1.5em .5em;
+  background-color: #fff;
+}
 
 body {
   color: #333;
@@ -21,8 +28,9 @@ hr {
 }
 
 nav {
-  background-color: white;
+ /* background-color: white;*/
   float: right;
+  /*margin: -2em 0 0 2em;*/
 }
 
 h1 { 
@@ -82,21 +90,23 @@ a.galleries:hover {
   color: #333;
 }
 
-a.home {
+a.nav {
   float: left;
   text-decoration: none;
-  font-weight: 700;
-  color: #333;
-  padding: 1em;
+  font-weight: 400;
+  color: #999;
+  /*padding: 1em;*/
+  margin: 1em 1em 0 1em;
 }
 
-a.home:hover {
+a.nav:hover {
   text-decoration: underline;
-  font-weight: 700;
-  color: #663333;
+  /*font-weight: inherit;
+  color: inherit;*/
 }
 
-a.logo-link {
+/* previous Newburgh and Photography*/
+/*a.logo-link {
   font-family: "acta-display", serif;
   color: #333;
   text-decoration: none;
@@ -105,7 +115,24 @@ a.logo-link {
 a.logo-link:hover {
   font-family: "acta-display", serif;
   text-decoration: none;
+}*/
+/*end Newburgh and Photography*/
+
+/* new Newburgh and Photography*/
+a.logo {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  display: inherit;
+  text-decoration: none;
 }
+
+a.logo:hover {
+  /*font-family: "acta-display", serif;*/
+  text-decoration: none;
+}
+/*end new Newburgh and Photography*/
 
 a.sub {
   color: #333;
@@ -282,10 +309,8 @@ img.g05-row-b {
 }
 
 li.photo {
-  display: inline-block;
-  position: relative;
-  margin: .0 0 0 1em;
-  padding: .2em 1.5em 0 0;
+  display: inline;
+  padding: 0 3em 0 0;
   font-family: "Georgia", "Times", serif;
   font-weight: 400;
   font-size: 1.3em;
@@ -293,9 +318,7 @@ li.photo {
 
 li.photo-page {
   display: inline-block;
-  position: relative;
-  margin: .0 0 0 1em;
-  padding: .2em 1.5em 0 0;
+  padding: 1em 4em 0 .8em;
   font-family: "Georgia", "Times", serif;
   font-weight: 400;
   font-size: 1.3em;
@@ -349,20 +372,14 @@ p.nb-wal-txt{
 }
 
 .current-page {
+  margin: 1em 1em 0 1em;
+  display: inline;
   color: #333;
+  float: left;
 }
 
 .figure-wrap {
 width:1020px;
-margin: 3em 0 0 0;
-
-}
-
-.nav-align {
-  float: left;
-  text-decoration: none;
-  font-weight: 700;
-  padding: 1.5em 1.3em 0 1.3em;
 }
 
 .nav-bot-align {
@@ -388,11 +405,11 @@ margin: 3em 0 0 0;
   font-size: .7em;
 }
 
-.sub-align {
+/*.sub-align {
   display: block;
   margin: 3em 0 0 0;
   position: absolute;
-}
+}*/
 
 .wrapper {
   width: 100%;
@@ -429,39 +446,56 @@ margin: 3em 0 0 0;
   margin: -12em 0 0 0;
 }
 
-#home-footer {
+/*#home-footer {
   clear: both;
   width: 100%;
   position: absolute;
   float: left;
   display: block;
   margin: 52em 0 0 -10em;
-}
+}*/
 
-#home-img {
+/*#home-img {
   background: url("../images/01_kasterine_home.jpg") no-repeat center center fixed;
   background-color: #fff;
   background-size: 90%;
-}
+}*/
 
 #home-imgtitle {
   float: right;
-  color: #333;
-  font-style: italic;
-  font-weight: 300;
-  text-align: right;
+  color: #999;
 }
 
 #home-logo {
-  font-family: "acta-display", serif;
-  font-weight: 300; 
+  font-family: 'Amiri', serif;
+  font-weight: 400; 
   font-size: 2em; 
   color: #333;
   display: inline;
-  margin: 0 0 .5em 0;
-  position: absolute;
-  background-color: white;
+/*  margin: 0 0 .5em 0;
+*/  text-transform: uppercase;
+  /*position: absolute;*/
+  /*background-color: white;*/
 }
+
+.logo {
+  font-family: 'Amiri', serif;
+  font-weight: 400; 
+  font-size: 2em; 
+  color: #333;
+  display: inline;
+  text-transform: uppercase;
+}
+
+/*.logo a {
+ background-color: white
+}
+
+.logo:hover {
+  text-decoration: underline;
+  font-weight: inherit;
+  color: inherit;
+}*/
 
 #nb-book-lft-col {
   float: left;
