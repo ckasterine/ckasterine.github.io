@@ -373,13 +373,13 @@ margin: 3em 0 0 0;
 }
 
 .page-footer {
-  clear: both;
+  /*clear: both;*/
   width: 100%;
   margin: 0 auto;
-  position: absolute;
-  float: left;
-  display: block;
-  padding: 10px;
+/*  position: absolute;
+*/  float: left;
+/*  display: block;
+*/  padding: 10px;
 }
 
 .photo-page-small {
