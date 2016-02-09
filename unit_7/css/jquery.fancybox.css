@@ -145,7 +145,10 @@
 	margin-top: -18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: hidden;
+	/*CK updated*/
+	/*visibility: hidden;*/
+	visibility: visible;
+	/*end CK updated*/
 }
 
 .fancybox-prev span {
@@ -158,9 +161,11 @@
 	background-position: 0 -72px;
 }
 
-.fancybox-nav:hover span {
+/*CK updated*/
+/*.fancybox-nav:hover span {
 	visibility: visible;
-}
+}*/
+/*end CK updated*/
 
 .fancybox-tmp {
 	position: absolute;
