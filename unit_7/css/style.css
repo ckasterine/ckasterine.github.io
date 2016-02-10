@@ -5,8 +5,8 @@
   padding: 0;
   box-sizing:border-box;
  }
+ 
 header {
-  /*margin: 1em 0 1em 0;*/
   padding: .5em .5em 1.5em .5em;
   background-color: #fff;
 }
@@ -16,21 +16,21 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
   text-align: left;
+  line-height: 1.5em;
+  text-align: justify;
 }
 
-hr {
+/*hr {
   clear: both;
   width: 100%;
   display: block;
   height: .05em;
   background-color: #333;
   border: none;
-}
+}*/
 
 nav {
- /* background-color: white;*/
   float: right;
-  /*margin: -2em 0 0 2em;*/
 }
 
 h1 { 
@@ -40,6 +40,7 @@ h1 {
   text-transform: uppercase;
   color: #fff;
   display: block;
+  padding: .5em 1em .5em 2.6em;
 }
 
 p {
@@ -144,16 +145,16 @@ a.sub:hover {
   color: #333;
 }
 
-h1.nb-header {
+/*h1.nb-header {
   padding: .5em 1em .5em 1em;
   display: block;
-}
+}*/
 
 h1.nb-photos-header {
-  padding: .5em 1em .5em 0;
-  margin: 0;
-  text-align: left;
-  width: 65%;
+  padding: .5em 0 .5em .6em;
+  /*margin: 0;*/
+  /*text-align: left;*/
+  width: 67%;
   float: right;
 }
 
@@ -348,9 +349,9 @@ p.logo-page {
 }
 
 p.nb-film-txt {
-  width: 100%; 
-  text-align: justify;
-  padding: 1em 4em 3em 4em;
+  /*width: 100%; 
+  text-align: justify;*/
+  padding: 2em 4em 3em 4em;
   background-color: #fff;
 }
 
@@ -483,6 +484,7 @@ width:1020px;
   font-weight: 400; 
   font-size: 2em; 
   color: #333;
+  letter-spacing: .05em;
   display: inline;
   text-transform: uppercase;
 }
@@ -501,11 +503,13 @@ width:1020px;
   float: left;
   width: 60%;
   background-color: #fff;
-  padding: 4em 2em 8.68em 2em;
+  padding: 2em 4em 7.7em 4em;
 }
 
 #nb-film-sect {
-  background-color: #333;
+/*  background-color: #333;*/
+  background-color: red;
+  width: 100%
 }
 
 #nb-pge-colr {
@@ -516,7 +520,7 @@ background-color: #333;
   float: right;
   width: 67%;
   background-color: #fff;
-  padding: 1em 1em 3.2em 1em;
+  padding: 2em 4em 1.6em 4em;
 }
 
 #nb-photos-sect {
