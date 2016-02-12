@@ -431,8 +431,21 @@ background-color: #333;
   color: #fff;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
   .logo {
     letter-spacing: normal;
+  }
+
+  nav {
+  float: none;
+  }
+  a.nav {
+  float: none;
+  background-color: blue;
+  padding: 1.5em;
+  /*text-decoration: none;
+  font-weight: 400;
+  color: #999;
+  margin: 1em 1em 0;*/
   }
 }
