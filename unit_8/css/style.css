@@ -6,6 +6,7 @@
   box-sizing:border-box;
  }
  
+ /*element selectors*/ 
 header {
   padding: .5em .5em 1.5em;
   background-color: #fff;
@@ -29,9 +30,10 @@ h1 {
   font-weight: 200;
   letter-spacing: .05em;
   text-transform: uppercase;
-  color: #fff;
-  display: block;
-  padding: .5em 1em .5em 2.6em;
+  color: #333;
+  margin: .5em 0 0;
+/*  display: block;
+*/  /*padding: .5em 1em .5em 2.6em;*/
 }
 
 p {
@@ -40,11 +42,8 @@ p {
   line-height: 1.5em;
 }
 
-/*footer {
-  clear: both;*/
-  /*padding: 10px;*/
-/*}
-*/
+
+/*link selectors*/ 
 a.contact {
   color: #999;
   text-decoration: none;
@@ -94,15 +93,6 @@ a.nav:hover {
   text-decoration: underline;
 }
 
-/*a.nav-menu {
-  float: right;
-  visibility: hidden;
-  width: 50%;
-  height: 50%;
-  padding: 1.5em;
-  background: black;
-}*/
-
 a.sub {
   color: #333;
   text-decoration: none;
@@ -113,7 +103,8 @@ a.sub:hover {
   color: #333;
 }
 
-h1.nb-photos-header {
+/*element classes*/ 
+/*h1.nb-photos-header {
   padding: .5em 0 .5em .6em;
   width: 67%;
   float: right;
@@ -126,11 +117,24 @@ h1.nb-book-header {
   width: 65%;
   float: left;
   padding: 4em 2em 8.68em;
+}*/
+
+img.g05-row-a {
+  float: left;
+  width: 20%;
+  margin: 1em 0 0 0;
+  padding: 0 .5em 0;
 }
 
+img.g05-row-b {
+  float: left;
+  width: 20%;
+  padding: .5em .5em 0;
+}
+/*
 img.nb-photos {
   width: 33%;
-  }
+  }*/
 
 img.nb-book {
   width: 40%;
@@ -142,9 +146,106 @@ img.nb-align-center {
   width: 100%;
 }
 
-/* NEW Gallery 1 code
-*/
+li.photo {
+  display: inline;
+  padding: 0 3em 0 0;
+  font-family: "Georgia", "Times", serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
 
+li.photo-page {
+  display: inline-block;
+  padding: 1em 4em 0 .8em;
+  font-family: "Georgia", "Times", serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #333;
+}
+
+p.copyright {
+  text-decoration: none;
+  color: #999;
+  width:100%;
+  float: left;
+}
+
+p.gallery-text {
+  font-size: 1.1em;
+  width: 40em; 
+  text-align: justify;
+  padding: 1em 0;
+  margin: 0 auto;
+}
+
+.nb-hdr-sub {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .75em;
+ /* font-weight: lighter;*/
+  font-style: italic;
+  /*text-transform: none;*/
+  color: #333;
+}
+
+.nb-player {
+  width:100%;
+  margin: auto 0;
+}
+
+.nb-photo {
+  width: 30%;
+  float: left;
+}
+
+.nb-txt {
+  /*background-color: red;*/
+  color: #333;
+}
+
+.nb-txt p {
+  font-family:  "Garamond", "Palatino", "Georgia", serif;
+  font-size: 1.5em;
+  margin: 0 1em .5em;
+}
+
+.nb-txt-photo {
+  width: 70%;
+  float: right;
+  padding: 0 3em;
+}
+
+.nb-txt-photo p {
+  font-family: "Garamond", "Palatino", "Georgia", serif;
+  font-style: italic;
+  font-size: 1.7em;
+  margin: 0 1em .5em;
+}
+/*p.nb-film-txt {
+  padding: 2em 4em 3em;
+  background-color: #fff;
+}*/
+
+/*p.nb-wal-txt{
+  font-size: 1.1em;
+  width: 100%; 
+  text-align: justify;
+  padding: 1em 4em 1em;
+  background-color: #fff;
+}*/
+
+/*classes*/
+.current-page {
+  margin: 1em 1em 0;
+  display: inline;
+  color: #333;
+  float: left;
+}
+
+.figure-wrap {
+width:1020px;
+}
+
+/* NEW Gallery 1 code*/
 .g01-lft-squares {
   width: 60%;
   float: left;
@@ -159,42 +260,7 @@ padding: 0 .6em .9em;
   width: 40%;
   float: right;
 }
-
-/*NEW gallery not used
-*//*
-.g01-rght-rect img{
-  width: 378px;
-  height: 564px;
-  padding: 0 .6em .9em;
-}*/
-/*end NEW gallery not used
-*//*
-
-/* old Gallery 1 code
-*/
-
-/*.g01-row-1 {
-  float: left;
-  margin: 1em 2.8em 0 0;
-}*/
-
-/*.g01-row-2-left {
-  float: left;
-  margin: -17.3em 0 0;
-}
-
-.g01-row-2-rght {
-  float: left;
-  margin: -17.3em 20em 0;
-}*/
-
-/*.g01-rect {
-  float: left;
-  margin: 1em 0 0;
-  }*/
-
-/* end old Gallery 1 code
-*/
+/* end NEW Gallery 1 code*/
 
 .g02-row {
   width:100%;
@@ -202,7 +268,7 @@ padding: 0 .6em .9em;
 }
 
 .g02-row img {
-  margin: 1em 1em 0 .5em;
+padding: 0 0 1em;
 }
 
 .g03-row {
@@ -299,84 +365,6 @@ padding: 0 .6em .9em;
   text-transform: uppercase;
 }
 
-img.g05-row-a {
-  float: left;
-  width: 20%;
-  margin: 1em 0 0 0;
-  padding: 0 .5em 0;
-}
-
-img.g05-row-b {
-  float: left;
-  width: 20%;
-  padding: .5em .5em 0;
-}
-
-li.photo {
-  display: inline;
-  padding: 0 3em 0 0;
-  font-family: "Georgia", "Times", serif;
-  font-weight: 400;
-  font-size: 1.3em;
-}
-
-li.photo-page {
-  display: inline-block;
-  padding: 1em 4em 0 .8em;
-  font-family: "Georgia", "Times", serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  color: #333;
-}
-
-p.copyright {
-  text-decoration: none;
-  color: #999;
-  width:100%;
-  float: left;
-}
-
-p.gallery-text {
-  font-size: 1.1em;
-  width: 40em; 
-  text-align: justify;
-  padding: 1em 0;
-  margin: 0 auto;
-}
-
-p.nb-film-txt {
-  padding: 2em 4em 3em;
-  background-color: #fff;
-}
-
-p.nb-wal-txt{
-  font-size: 1.1em;
-  width: 100%; 
-  text-align: justify;
-  padding: 1em 4em 1em;
-  background-color: #fff;
-}
-
-.clearfix:after {
-  height: 0;
-  font-size:0;
-  visibility: hidden;
-  display: block;
-  content:" ";
-  clear: both;
-}
-
-.current-page {
-  margin: 1em 1em 0;
-  display: inline;
-  color: #333;
-  float: left;
-}
-
-.figure-wrap {
-width:1020px;
-}
-
 .nav-bot-align {
   display: block;
   width: 55%;
@@ -403,9 +391,19 @@ width:1020px;
   margin: 0 auto;
 }
 
+/*psuedo elements*/
+.clearfix:after {
+  height: 0;
+  font-size:0;
+  visibility: hidden;
+  display: block;
+  content:" ";
+  clear: both;
+}
+
+/*IDs*/
 #g02-barrow {
-  width:100%;
-  padding: 1em;
+padding: 0 1em;
 }
 
 #g05-row-b-03 {
@@ -444,36 +442,38 @@ width:1020px;
   padding: 2em 4em 7.65em;
 }
 
-#nb-film-sect {
-  /*background-color: red;*/
-  width: 100%
-}
+/*#nb-film-sect {
+*/  /*background-color: red;*/
+/*  width: 100%
+}*/
 
-#nb-pge-colr {
+/*#nb-pge-colr {
 background-color: #333;
-}
+}*/
 
 #nb-photos-rght-col {
   float: right;
   width: 67%;
   background-color: #fff;
-  padding: 2em 4em 2.6em;
+  padding: 2em 4em 3.75em;
 }
 
-#nb-photos-sect {
-  background-color: #999;
+/*#nb-photos-sect {
+  background-color: #999;*/
  /* height: 4em;*/
-}
+/*}
+*/
 
-#nb-subtext {
+/*#nb-subtext {
   font-family: Helvetica, Arial, sans-serif;
   font-size: .75em;
   font-weight: lighter;
   font-style: italic;
   text-transform: none;
   color: #fff;
-}
+}*/
 
+/*tablets and phones*/
 @media only screen and (max-width: 768px){
   .logo {
     letter-spacing: normal;
@@ -523,7 +523,6 @@ a.sub {
   font-weight: 800;
   font-size: 1.5em;
   }
-
 }
 
 
