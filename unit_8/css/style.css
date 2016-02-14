@@ -26,14 +26,13 @@ nav {
 }
 
 h1 { 
-  font-size: 1.5em;
-  font-weight: 200;
+  font-size: 2em;
+  font-weight: 600;
   letter-spacing: .05em;
   text-transform: uppercase;
-  color: #333;
-  margin: .5em 0 0;
-/*  display: block;
-*/  /*padding: .5em 1em .5em 2.6em;*/
+  color: #fff;
+  padding: .5em .7em;
+  background-color: #333;
 }
 
 p {
@@ -181,15 +180,17 @@ p.gallery-text {
 .nb-hdr-sub {
   font-family: Helvetica, Arial, sans-serif;
   font-size: .75em;
- /* font-weight: lighter;*/
-  font-style: italic;
-  /*text-transform: none;*/
-  color: #333;
+/*  font-style: italic;
+*/  text-transform: none;
+  color: #999;
 }
 
-.nb-player {
-  width:100%;
-  margin: auto 0;
+.nb-pge-colr {
+background-color: #333;
+}
+
+.nb-pge-bkgrnd {
+background-color: #fff;
 }
 
 .nb-photo {
@@ -197,15 +198,21 @@ p.gallery-text {
   float: left;
 }
 
+.nb-player {
+  width:100%;
+  margin: auto 0;
+}
+
+
 .nb-txt {
-  /*background-color: red;*/
+  background-color: #fff;
   color: #333;
 }
 
 .nb-txt p {
   font-family:  "Garamond", "Palatino", "Georgia", serif;
   font-size: 1.5em;
-  margin: 0 1em .5em;
+  margin: 1em 1em .5em;
 }
 
 .nb-txt-photo {
@@ -220,6 +227,7 @@ p.gallery-text {
   font-size: 1.7em;
   margin: 0 1em .5em;
 }
+
 /*p.nb-film-txt {
   padding: 2em 4em 3em;
   background-color: #fff;
@@ -447,16 +455,13 @@ padding: 0 1em;
 /*  width: 100%
 }*/
 
-/*#nb-pge-colr {
-background-color: #333;
-}*/
 
-#nb-photos-rght-col {
+/*#nb-photos-rght-col {
   float: right;
   width: 67%;
   background-color: #fff;
   padding: 2em 4em 3.75em;
-}
+}*/
 
 /*#nb-photos-sect {
   background-color: #999;*/
