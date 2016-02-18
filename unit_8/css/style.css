@@ -186,30 +186,39 @@ li.photo-page {
   text-align: justify;
 }
 
-/* NEW Gallery 1 styles*/
+/*v2 Gallery 1 styles*/
 .g01-lft-squares {
   width: 60%;
-  float: left;
 }
 
 .g01-lft-squares img{
   float: left;
-  padding: 0 .6em .9em;
+  width: 50%;
+  height: auto;
+  padding: 0 1.5% 3%;
 }
 
 .g01-rght-rect {
-  width: 40%;
   float: right;
+  width: 40%;
+  margin: 0;
 }
-/* end NEW Gallery 1 code*/
+
+.g01-rght-rect img {
+  width: 98%;
+  height: auto;
+}
+/* end v2 Gallery 1 code*/
 
 .g02-row {
   width:100%;
-  float: left;
 }
 
 .g02-row img {
-  padding: 0 0 1em;
+  width: 23%;
+  height: auto;
+  float: left;
+  margin: 0 1% 1.5%;
 }
 
 .g03-row {
@@ -412,7 +421,11 @@ li.photo-page {
 
 /*IDs*/
 #g02-barrow {
-  padding: 0 1em;
+  width: 99%;
+  height: auto;
+  margin:auto;
+  display: block;
+/*  margin: 0 2% auto;*/
 }
 
 #g05-row-b-03 {
