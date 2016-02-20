@@ -417,6 +417,11 @@ li.photo-page {
 /*  background-color: #333;
 */}
 
+.nb-player iframe {
+  width: 1024px;
+  height: 576px;
+}
+
 .nb-txt {
   color:#333;
   background-color: #fff;
@@ -578,4 +583,13 @@ float: right;
   width: 49%; 
   }
 
+.nb-player {
+  text-align: center;
+  width:100%;
+}
+
+.nb-player iframe {
+  width: 940px;
+  height: 528px;
+  }
 }
