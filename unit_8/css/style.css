@@ -20,7 +20,6 @@ body {
   font-size: 100%;
   text-align: left;
   line-height: 1.5em;
-  /*text-align: justify;*/
 }
 
 nav {
@@ -42,7 +41,6 @@ h2 {
   font-weight: 400;
   letter-spacing: .02em;
   color: #666;
-  /*padding: 0 3.2em;*/
   width:100%;
 }
 
@@ -94,12 +92,15 @@ a.nb-directions:hover {
 }
 
 a.logo {
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  color: inherit;
-  display: inherit;
+  float: left;
+  font-family: 'Amiri', serif;
+  font-weight: 400; 
+  font-size: 2em; 
+  color: #333;
+  letter-spacing: .05em;
+  text-transform: uppercase;
   text-decoration: none;
+  padding: 1.5em 0;
 }
 
 a.logo:hover {
@@ -111,7 +112,8 @@ a.nav {
   text-decoration: none;
   font-weight: 400;
   color: #999;
-  margin: 1em 1em 0;
+  padding: 2em 2.4em;
+  margin: 1em 0 0;
 }
 
 a.nav:hover {
@@ -119,8 +121,13 @@ a.nav:hover {
 }
 
 a.sub {
+  float:left;
+  font-family: "Georgia", "Times", serif;
+  font-weight: 400;
+  font-size: 1.3em;
   color: #333;
   text-decoration: none;
+  padding: .5em 1.8em;
 }
 
 a.sub:hover {
@@ -142,30 +149,17 @@ img.g05-row-b {
   padding: .5em .5em 0;
 }
 
-li.photo {
-  display: inline;
-  padding: 0 2em 0 0;
-  font-family: "Georgia", "Times", serif;
-  font-weight: 400;
-  font-size: 1.3em;
-}
-
-li.photo-page {
-  display: inline-block;
-  padding: 1em 4em 0 .8em;
-  font-family: "Georgia", "Times", serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  color: #333;
-}
-
 /*classes*/
 .copyright {
-  /*width:100%;
-  float: left;
-*/  color: #999;
+  color: #999;
   font-size: 0.8em;
   margin: .5em;
+}
+
+
+a.active-page {
+  color: #333;
+  float: left;
 }
 
 .current-page {
@@ -262,7 +256,6 @@ li.photo-page {
 .g04-rows {
   clear:both;
   width:100%;
-  /*background-color: green;*/
   text-align: center;
 }
 
@@ -336,7 +329,7 @@ li.photo-page {
   margin: 0 1em;
 }
 
-.logo {
+/*.logo {
   font-family: 'Amiri', serif;
   font-weight: 400; 
   font-size: 2em; 
@@ -345,13 +338,12 @@ li.photo-page {
   display: inline;
   text-transform: uppercase;
   margin: 1em 0 0;
-}
+}*/
 
 .nav-bot-align {
-  display: block;
-  width: 55%;
-  padding: 2.5em 0;
-  margin: 0 auto;
+  width:56%;
+  margin: 1em 0;
+  float:left;
 }
 
 .nb-photo {
@@ -398,6 +390,12 @@ li.photo-page {
   font-size: .7em;
 }
 
+.sub-active {
+  font-size: .7em;
+  text-decoration: none;
+}
+
+
 .txt-i {
   font-style: italic;
   letter-spacing: .03em
@@ -442,49 +440,6 @@ float: right;
     letter-spacing: normal;
   }
 
-  nav {
-    float: left;
-  } 
-
-  a.nav {
-    font-size: 1.3em;
-    font-weight: 700;
-    width: 100%;
-    background-color: #fff;
-    color:#999;
-    padding: 0 2em 1em 0;
-    margin: 0;
-  }
-
-  a.sub {
-    color: #336699;
-    text-decoration: none;
-}
-  li.photo {
-    padding: 0 2em;
-    font-weight: 500;
-    font-size: 1.2em;
-  }
-
-  li.photo-page {
-    padding: 1em 3em 0 0;
-    margin: 0 0 0 2em;
-    font-weight: 500;
-    font-size: 1.2em;
-    color: #336699;
-  }
-
-  .current-page {
-    text-align: left;
-    font-size: 1.3em;
-    font-weight: 700;
-    width: 100%;
-    color:#333;
-    background-color: #fff;
-    padding: 0 2em 1em 0;
-    margin: 0;
-  }
-
   .g04-col-01 {
     width: 100%;
     float:none;
@@ -508,13 +463,6 @@ float: right;
     width: 49%; 
   }
 
-  .nav-bot-align {
-    width: 100%;
-    float:left;
-    padding: 0 0 3em 0;
-    margin left: 1em;
-  }
-
   .nb-player {
     text-align: center;
     width:100%;
@@ -526,7 +474,7 @@ float: right;
   }
 }
 
-@media only screen and (max-width: 611px) 
+/*@media only screen and (max-width: 611px) 
 {
     li.photo-page {
     margin: 0 0 0 1em;
@@ -543,5 +491,5 @@ float: right;
 {
     li.photo-page {
     padding: 0 0 .5em 0;
-  }
+  }*/
 )
