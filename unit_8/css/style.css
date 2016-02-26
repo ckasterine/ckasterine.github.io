@@ -18,7 +18,7 @@ body {
   color: #333;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 100%;
-  /*text-align: left;*/
+  text-align: none;
 /*  line-height: 1.5em;
 */}
 
@@ -252,6 +252,7 @@ a.active-page {
 .g04-rows {
   clear:both;
   width:100%;
+  text-align: center;
 }
 
 .g04-rows img {
@@ -271,7 +272,21 @@ a.active-page {
 
 .g05-col img {
   width:100%;
-  padding: 5% 5%;
+  height: auto;
+  padding: 5%;
+}
+
+.g05-row {
+  text-align:center;
+  width: 100%;
+  float: left;
+}
+
+.g05-row img {
+  width: 24.5%;
+  height: auto;
+  padding: .5%;
+  margin: auto 0;
 }
 
 .home-img {
