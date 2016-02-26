@@ -249,24 +249,15 @@ a.active-page {
   padding: 0 1% 2%;
 }
 
-/*.g04-col-03 {
-  width: 33%;
-  float:right;
-}
-
-.g04-col-03 img {
-  width: 49%;
-}*/
-
 .g04-rows {
   clear:both;
   width:100%;
-  text-align: center;
 }
 
 .g04-rows img {
-  width:24.67%;
+  width:24%;
   height: auto;
+  padding: .25%
 }
 
 .g05 {
