@@ -111,6 +111,7 @@ a.logo:hover {
 a.nav {
   float: left;
   text-decoration: none;
+  font-size: 1em;
   font-weight: 700;
   letter-spacing: .02em;
   color: #999;
@@ -355,6 +356,11 @@ a.active-page {
   font-size: .7em;
 }
 
+.ns-padding {
+  /*margin: 1em 0 0;*/
+  padding: 0 0 1em;
+}
+
 .sub-active {
   font-size: .7em;
   text-decoration: none;
@@ -400,8 +406,7 @@ float: right;
 }
 
 /*tablets and phones*/
-/*image breakpoint*/
-
+/*nav and image breakpoint*/
 @media only screen and (max-width: 949px) 
 {
   nav {
@@ -423,28 +428,6 @@ float: right;
     margin: .5em;
   }
 
-  /*.g04-col-01 {
-    width: 100%;
-    float:none;
-  }
-
-  .g04-col-02 {
-    width: 100%;
-    float:none;
-  }
-
-  .g04-col-03 {
-    width: 100%;
-    float:none;
-  }
-
-  .g04-rows {
-    width: 100%; 
-  }
-
-  .g04-rows img{
-    width: 49%; 
-  }*/
 
   .nb-player {
     text-align: center;
@@ -457,22 +440,66 @@ float: right;
   }
 }
 
-/*@media only screen and (max-width: 611px) 
-{
-    li.photo-page {
-    margin: 0 0 0 1em;
+/* sub nav breakpoint*/
+@media only screen and (max-width: 695px) {
+.sub-active {
+  font-size: .6em;
+  }
+a.sub {
+  padding: .5em 1.4em;
+  font-size:1.3em;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+a.nav {
+ letter-spacing:normal;
+  } 
+}
+
+@media only screen and (max-width: 664px) {
+.sub-active {
+  font-size: .4em;
   }
 
-  @media only screen and (max-width: 591px) 
-{
-    li.photo-page {
-    margin: 0;
-    padding: 0 0 2em 0;
-  }
+}
 
-    @media only screen and (max-width: 515px) 
-{
-    li.photo-page {
-    padding: 0 0 .5em 0;
-  }*/
-)
+@media only screen and (max-width: 643px) {
+  a.nav {
+  font-size: .99em;
+  } 
+  a.sub {
+    font-size:1.2em;
+  }
+}
+
+@media only screen and (max-width: 637px) {
+  a.nav {
+  font-size: .95em;
+  } 
+}
+
+@media only screen and (max-width: 611px) {
+    a.nav {
+    font-size: .9em;
+  } 
+   a.sub {
+    font-size:1.1em;
+  }
+}
+
+/*nav font too small--explore dropdown*/
+@media only screen and (max-width: 582px) {
+    a.nav {
+    font-size: .8em;
+  } 
+    a.sub {
+    font-size:1em;
+  }
+   a.logo {
+    margin: 0 .5em;
+  }
+}
+
+ 
+}
