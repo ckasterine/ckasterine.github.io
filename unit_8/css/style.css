@@ -19,8 +19,11 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 100%;
   text-align: none;
-/*  line-height: 1.5em;
-*/}
+}
+
+label {
+  display: none;
+}
 
 nav {
   float: right;
@@ -43,6 +46,10 @@ h2 {
   letter-spacing: .02em;
   color: #666;
   width:100%;
+}
+
+hr {
+  display: none;
 }
 
 p {
@@ -82,7 +89,6 @@ a.nb-citation:hover {
 a.nb-directions {
   color: #003399;
   font-style: inherit;
-/*  font-size: .9em;*/  
   text-decoration: none;
 }
 
@@ -138,6 +144,26 @@ a.sub:hover {
   text-decoration: underline;
   color: #333;
 }
+
+.sub-mobile {
+display:none;
+}
+
+a.sub-mobile {
+width:100%;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 1em;
+text-align: center;
+font-weight: 800;
+padding: 0 0 1em;
+color: #333;
+}
+
+a.sub-mobile:hover {
+  text-decoration: none;
+}
+
 
 /*element classes*/ 
 img.g05-row-a {
@@ -388,6 +414,10 @@ a.active-page {
 }
 
 /*IDs*/
+#toggle {
+  display: none;
+}
+
 #g02-barrow {
   width: 99%;
   height: auto;
@@ -427,7 +457,6 @@ float: right;
     padding: 1em 1.2em;
     margin: .5em;
   }
-
 
   .nb-player {
     text-align: center;
@@ -490,16 +519,74 @@ a.nav {
 
 /*nav font too small--explore dropdown*/
 @media only screen and (max-width: 582px) {
-    a.nav {
-    font-size: .8em;
+
+  label {
+  display: block;
+  width: 87.9%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: 800;
+  padding: 1em;
+  color: #333;
+/*  background-color: #CCCFD2;
+*/  }
+
+  nav {
+    display: none;
+  }
+
+  hr {
+  display: block;
+  width:90%;
+  margin: auto;
+  /*border: .005em dashed #999;*/
+  }
+
+  a.nav {
+    display: block;
+    width: 90%;
+    font-size: 1em;
+    color:#333;
+    text-align: center;
+    background-color: #CCCFD2;
+    margin: auto;
   } 
-    a.sub {
-    font-size:1em;
+
+  a.nav:hover {
+    text-decoration: none;
   }
-   a.logo {
-    margin: 0 .5em;
+
+  a.sub {
+    display: none;
   }
+
+  a.logo {
+    width:100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+  }
+
+.sub-mobile {
+  width: 90%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: #CCCFD2;
+
 }
 
- 
+.nav-mobile
+{
+  display: none;
+}
+
+/*adjacent sibling selector*/
+  #toggle:checked + nav {
+      display: block;
+      clear:both;
+      float: none;
+  }
 }
