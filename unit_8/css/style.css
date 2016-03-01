@@ -359,7 +359,7 @@ a.active-page {
 .g05-row img {
   width: 24.5%;
   height: auto;
-  padding: .5%;
+  padding: 0 .5%;
   margin: auto 0;
 }
 
@@ -429,7 +429,6 @@ a.active-page {
 }
 
 .ns-padding {
-  /*margin: 1em 0 0;*/
   padding: 0 0 1em;
 }
 
@@ -474,18 +473,13 @@ a.active-page {
 #g03-col-lg-sq {
 width: 98%;
 float:left;
-padding: 1.5%;
+padding: 1% 1% 0 2%;
 }
 
-/*#g04-ag {
-float: right;
-}
-*/
 #g04-col-lg-sq {
 width: 100%;
 float:left;
-/*padding: 0 1% 7.2% 0;
-*/}
+}
 
 /*tablets and phones*/
 /*nav and image breakpoint*/
@@ -533,7 +527,7 @@ a.sub {
 }
 
 /*image breakpoints*/
-@media only screen and (max-width: 664px) {
+@media only screen and (max-width: 670px) {
 a.nav {
  letter-spacing:normal;
   } 
@@ -544,19 +538,51 @@ a.nav {
 
 .g01-lft-squares {
   width: 100%;
-}
+ }
 
 .g01-rght-rect {
   float: none;
   width: 95%;
   margin: 2% auto;
   text-align:center;
-}
+ }
+
+.g03-col-01 {
+  width: 100%;
+ }
+
+.g03-col-02 {
+  width: 100%;
+ }
+
+.g03-col-02 img {
+  width: 100%;
+ }
+
+.g03-col-03 {
+  width: 100%;
+ }
+
+.g03-rows {
+  clear: none;
+  width: 100%;
+ }
+
+.g03-rows img {
+  width: 47%;
+  padding: 0;
+ }
+
+#g03-col-lg-sq {
+  width: 100%;
+  float: none;
+  padding: 3%;
+ }
 
 .g04-col {
   width: 50%;
   float: left;
- }
+  }
 
 .g04-col-last {
   width:98%;
@@ -566,16 +592,15 @@ a.nav {
 
 .g04-col-last img {
   padding: 2%;
-}
+ }
 
 .g04-rows img {
   width:47%;
   padding: .5%;
-}
+ }
 
 .g05-row img {
   width: 47%;
-  padding: .5%;
   }
 
 .g05-col {
@@ -586,16 +611,16 @@ a.nav {
   width:50%;
   float:left;
   }
+
+a.sub {
+    font-size:1.2em;
+  }
 }
 
 @media only screen and (max-width: 643px) {
   a.nav {
   font-size: .99em;
   } 
-
-  a.sub {
-    font-size:1.2em;
-  }
 }
 
 @media only screen and (max-width: 637px) {
