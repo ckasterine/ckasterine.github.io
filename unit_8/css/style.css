@@ -694,7 +694,6 @@ a.sub {
   display: block;
   text-align: center;
   background-color: #CCCFD2;
-
 }
 
 .nav-mobile
@@ -708,4 +707,7 @@ a.sub {
       clear:both;
       float: none;
   }
+/*issue with g5-col-last*/  
+@media only screen and (max-width: 515px) {
+
 }
