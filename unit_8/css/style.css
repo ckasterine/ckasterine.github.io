@@ -114,7 +114,7 @@ a.logo:hover {
   text-decoration: none;
 }
 
-a.nav {
+a.nav-link {
   float: left;
   text-decoration: none;
   font-size: 1em;
@@ -125,7 +125,7 @@ a.nav {
   margin: .5em;
 }
 
-a.nav:hover {
+a.nav-link:hover {
   text-decoration: underline;
 }
 
@@ -149,18 +149,19 @@ a.sub:hover {
 display:none;
 }
 
-a.sub-mobile {
-width:100%;
+a.sub-link {
+width:20%;
 text-decoration: none;
 font-family: sans-serif;
 font-size: 1em;
 text-align: center;
 font-weight: 800;
-padding: 0 0 1em;
+padding: 0 1em 2em;
 color: #333;
+float:left;
 }
 
-a.sub-mobile:hover {
+a.sub-link:hover {
   text-decoration: none;
 }
 
@@ -217,7 +218,8 @@ a.active-page {
   float: left;
   width: 50%;
   height: auto;
-  padding: 0 1.5% 3%;
+  /*padding: 0 1.5% 3%;*/
+  padding: 0 .5em 1em;
 }
 
 .g01-rght-rect {
@@ -233,13 +235,14 @@ a.active-page {
 
 .g02-row {
   width:100%;
+  margin: 0 auto;
 }
 
 .g02-row img {
-  width: 23%;
+  width: 25%;
   height: auto;
   float: left;
-  margin: 0 1% 1.5%;
+  padding: 0 .5em 1em .5em;
 }
 
 .g03-col-01 {
@@ -248,9 +251,9 @@ a.active-page {
 }
 
 .g03-col-01 img {
-  width: 49%;
+  width: 48%;
   height: auto;
-  padding: 0 2% 2%;
+  padding: 0 .5em .5em;
 }
 
 .g03-col-02 {
@@ -260,9 +263,9 @@ a.active-page {
 }
 
 .g03-col-02 img {
-  width: 97%;
+  width: 95%;
   height: auto;
-  padding: 0 2% 3%;
+  padding: 0 .5em 1em;
 }
 
 .g03-col-03 {
@@ -271,21 +274,33 @@ a.active-page {
 }
 
 .g03-col-03 img {
-  width: 49%;
+  width: 48%;
   height: auto;
-  padding: 0 2% 2%;
+  padding: 0 .5em .5em;
 }
 
-.g03-rows {
+.g03-row-a {
   clear:both;
   width:100%;
   text-align: center;
 }
 
-.g03-rows img {
+.g03-row-a img {
   width:24%;
   height: auto;
-  padding: .5%;
+  padding: .5em;
+}
+
+.g03-row-b{
+  clear:both;
+  width:100%;
+  text-align: center;
+}
+
+.g03-row-b img {
+  width:32%;
+  height: auto;
+  padding: .5em;
 }
 
 /*new version g04*/
@@ -297,7 +312,7 @@ a.active-page {
 .g04-col img {
   width: 50%;
   float: left;
-  padding: 0 1% 2%;
+  padding: 0 .5em 1em;
 }
 
 .g04-col-last {
@@ -309,7 +324,7 @@ a.active-page {
   width: 100%;
   height: auto;
   float:left;
-  padding: 0 1% 2%;
+  padding: 0 .5em 1em;
 }
 
 .g04-rows {
@@ -321,12 +336,12 @@ a.active-page {
 .g04-rows img {
   width:24%;
   height: auto;
-  padding: .25%
+  padding: 0 .5em .5em;
 }
 
-.g05 {
+/*.g05 {
   width: 100%;
-}
+}*/
 
 .g05-col {
   width:20%;
@@ -336,7 +351,7 @@ a.active-page {
 .g05-col img {
   width:100%;
   height: auto;
-  padding: 5%;
+  padding: .5em;
 }
 
 .g05-col-last {
@@ -347,20 +362,19 @@ a.active-page {
 .g05-col-last img {
   width:100%;
   height: auto;
-  padding: 5%;
+  padding: .5em;
 }
 
 .g05-row {
-  text-align:center;
   width: 100%;
-  float: left;
+  text-align: center;
 }
 
 .g05-row img {
-  width: 24.5%;
+  width: 24%;
   height: auto;
-  padding: 0 .5%;
-  margin: auto 0;
+  padding: 0 .5em .5em;
+  /*float: left;*/
 }
 
 .home-img {
@@ -473,12 +487,16 @@ a.active-page {
 #g03-col-lg-sq {
 width: 98%;
 float:left;
-padding: 1% 1% 0 2%;
+padding: .6em .5em;
 }
 
 #g04-col-lg-sq {
 width: 100%;
 float:left;
+}
+
+#sub-link-active{
+  color: #0033ff;
 }
 
 /*tablets and phones*/
@@ -498,7 +516,7 @@ float:left;
      margin: 0 1em;
   }
 
-  a.nav {
+  a.nav-link {
     float: none;
     padding: 1em 1.2em;
     margin: .5em;
@@ -528,7 +546,12 @@ a.sub {
 
 /*image breakpoints*/
 @media only screen and (max-width: 670px) {
-a.nav {
+
+a.sub {
+    font-size:1.2em;
+  }
+
+a.nav-link {
  letter-spacing:normal;
   } 
 
@@ -547,42 +570,76 @@ a.nav {
   text-align:center;
  }
 
+.g02-row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.g02-row img {
+  width:50%;
+  padding: 0 .5em 1em;
+}
+
 .g03-col-01 {
   width: 100%;
+  text-align: center;
  }
+
+ .g03-col-01 img {
+  width: 47%;
+  padding: 1em;
+}
 
 .g03-col-02 {
   width: 100%;
+  text-align: center;
  }
 
 .g03-col-02 img {
-  width: 100%;
+  width: 88%;
  }
 
 .g03-col-03 {
   width: 100%;
+  text-align: center;
  }
 
-.g03-rows {
+.g03-col-03 img {
+  width: 47%;
+  padding: 1em;
+}
+
+.g03-row-a {
   clear: none;
   width: 100%;
  }
 
-.g03-rows img {
+.g03-row-a img {
   width: 47%;
-  padding: 0;
+  padding: 1em;
  }
 
-#g03-col-lg-sq {
+.g03-row-b {
+  clear: none;
   width: 100%;
-  float: none;
-  padding: 3%;
+ }
+
+.g03-row-b img {
+  width: 90%;
+  padding: 1em;
  }
 
 .g04-col {
   width: 50%;
   float: left;
   }
+
+.g04-col img {
+  width: 100%;
+  float: left;
+  padding: 0 1em 1em;
+}
+
 
 .g04-col-last {
   width:98%;
@@ -591,7 +648,7 @@ a.nav {
   }
 
 .g04-col-last img {
-  padding: 2%;
+  padding: 1em;
  }
 
 .g04-rows img {
@@ -612,35 +669,18 @@ a.nav {
   float:left;
   }
 
-a.sub {
-    font-size:1.2em;
+#g03-col-lg-sq {
+  width: 90%;
+  float: none;
+  padding: 1em;
+ }
+ #g02-barrow {
+  width: 90%;
   }
+
 }
 
 @media only screen and (max-width: 643px) {
-  a.nav {
-  font-size: .99em;
-  } 
-}
-
-@media only screen and (max-width: 637px) {
-  a.nav {
-  font-size: .95em;
-  } 
-}
-
-@media only screen and (max-width: 611px) {
-    a.nav {
-    font-size: .9em;
-  } 
-   a.sub {
-    font-size:1.1em;
-  }
-}
-
-/*dropdown*/
-@media only screen and (max-width: 582px) {
-
   label {
   display: block;
   width: 87.9%;
@@ -662,7 +702,7 @@ a.sub {
   margin: auto;
   }
 
-  a.nav {
+  a.nav-link {
     display: block;
     width: 90%;
     font-size: 1em;
@@ -671,10 +711,6 @@ a.sub {
     background-color: #CCCFD2;
     margin: auto;
   } 
-
-  a.nav:hover {
-    text-decoration: none;
-  }
 
   a.sub {
     display: none;
@@ -692,7 +728,6 @@ a.sub {
   width: 90%;
   margin: auto;
   display: block;
-  text-align: center;
   background-color: #CCCFD2;
 }
 

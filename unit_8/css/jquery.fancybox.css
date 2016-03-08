@@ -106,8 +106,8 @@
 	position: absolute;
 	/*top: -18px;*/
 	/*right: -18px;*/
-	top: 4px;
-	right: -100px;
+	top: -24px;
+	right: -22px;
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
@@ -152,12 +152,14 @@
 }
 
 .fancybox-prev span {
-	left: 10px;
+	/*left: 10px;*/
+	left: 80px;
 	background-position: 0 -36px;
 }
 
 .fancybox-next span {
-	right: 10px;
+	/*right: 10px;*/
+	right: 80px;
 	background-position: 0 -72px;
 }
 
