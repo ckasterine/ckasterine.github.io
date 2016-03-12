@@ -31,21 +31,22 @@ nav {
 }
 
 h1 { 
+  /*font-size: 1.5em;*/
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: .02em;
+  line-height: 1.5em;
   text-transform: uppercase;
   color: #333;
   padding: 1em 0 0;
-  width:100%;
 }
 
 h2 { 
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 1.1em;
+  font-weight: 600;
   letter-spacing: .02em;
-  color: #666;
-  width:100%;
+  line-height: 1.5em;
+  color: #333;
 }
 
 hr {
@@ -55,8 +56,7 @@ hr {
 p {
   font-size: 1em;
   line-height: 1.5em;
-  margin: .5em 1.5em;
-  padding: 1em;
+  margin: 0 0 1em 0;
 }
 
 /*link selectors*/ 
@@ -162,7 +162,7 @@ float:left;
 }
 
 a.sub-link:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -332,10 +332,6 @@ a.active-page {
   float: left;
 }
 
-/*.g05 {
-  width: 100%;
-}*/
-
 .g05-col {
   width:20%;
   float:left;
@@ -390,15 +386,26 @@ a.active-page {
   float:left;
 }
 
+.nb-photo-sm {
+  width: 40%;
+  float:right;
+}
+
+.nb-photo-sm img {
+border: .1em #333 solid;
+width: 90%;
+height:auto;
+margin: 2em 0;
+float: right;
+}
+
 .nb-photo {
   width: 100%;  
 }
 
-.nb-photo img{
-  width: 33.3%;
-  height: auto;
-  padding: 1em;
+.nb-photo img {
   float:left;
+
 }
 
 .nb-player {
@@ -412,13 +419,23 @@ a.active-page {
 
 .nb-txt {
   color:#333;
-  background-color: #fff;
-  padding: .5em 2em;
+  width: 50%;
+  text-align: justify;
+  float: left;
+}
+
+
+.nb-txt-two{
+  color:#333;
+  width: 50%;
+  text-align: justify;
+  float: right;
 }
 
 .nb-wall-center {
   width: 100%;
-  padding: 1em 1em 0;
+  height: auto;
+  border: .1em #333 solid;
 }
 
 .page-footer {
