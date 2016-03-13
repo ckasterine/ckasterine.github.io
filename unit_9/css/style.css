@@ -387,16 +387,19 @@ a.active-page {
 }
 
 .nb-photo-sm {
-  width: 40%;
-  float:right;
-}
-
-.nb-photo-sm img {
 border: .1em #333 solid;
-width: 90%;
+width: 45%;
 height:auto;
 margin: 2em 0;
 float: right;
+}
+
+.nb-photo-sm-two {
+border: .1em #333 solid;
+width: 46%;
+height:auto;
+margin: 2em 0;
+float: left;
 }
 
 .nb-photo {
@@ -419,16 +422,17 @@ float: right;
 
 .nb-txt {
   color:#333;
-  width: 50%;
-  text-align: justify;
+  width: 45%;
+  text-align: left;
   float: left;
+  padding: 4em 0;
 }
 
 
 .nb-txt-two{
   color:#333;
   width: 50%;
-  text-align: justify;
+  text-align: left;
   float: right;
 }
 
