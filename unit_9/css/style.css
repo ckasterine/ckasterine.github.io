@@ -364,9 +364,9 @@ a.active-page {
 
 .nb-photo-sm {
   border: .2em #666 solid;
-  width: 36%;
+  width: 40%;
   height:auto;
-  float: right;
+  float: left;
   margin: 2em;
 }
 
@@ -393,10 +393,10 @@ a.active-page {
 }
 
 .nb-txt {
-  width: 54%;
+  width: 50%;
   text-align: justify;
-  float: left;
-  padding: 0 2em;
+  float: right;
+  padding: 3em 3em 0 0;
 }
 
 .nb-txt p {
@@ -404,7 +404,7 @@ a.active-page {
 }
 
 .nb-txt-wide {
-  width: 80%;
+  width: 70%;
   text-align: justify;
   padding: 0 2em;
 }
@@ -531,17 +531,29 @@ float:left;
    visibility: hidden;
   }
 
-
   .nb-wall {
     width: 85%;
   }
 
   .nb-txt {
-    padding: 0 4em;
+        width: 70%;
+    float: none;
+    padding: 0;
+    margin: .5em auto 2em;
+
   }
 
   .nb-txt-wide {
-    padding: 0 4em;
+    width: 70%;
+    padding: 0;
+    margin: .5em auto 2em;
+  }
+
+  .nb-photo-sm {
+    width: 70%;
+    float: none;
+    display: block;
+    margin: 0 auto;
   }
 }
 
