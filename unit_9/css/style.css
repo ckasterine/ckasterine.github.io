@@ -409,10 +409,12 @@ a.active-page {
   padding: 0 2em;
 }
 
-.nb-wall-center {
+.nb-wall {
   width: 100%;
   height: auto;
   border: .2em #666 solid;
+  display:block;
+  margin: 0 auto;
 }
 
 .ns-padding {
@@ -489,8 +491,8 @@ float:left;
 }
 
 /*tablets and phones*/
-/*nav and image breakpoint*/
-@media only screen and (max-width: 949px) 
+/*nav, image, video breakpoint*/
+@media only screen and (max-width: 950px) 
 {
   h1 {
     font-size: 1.3em;
@@ -503,10 +505,10 @@ float:left;
   }
 
    a.logo {
-     letter-spacing: normal;
-     display:block;
-     padding: 1em 0 .5em 0;
-     margin: 0 1em;
+    letter-spacing: normal;
+    display:block;
+    padding: 1em 0 .5em 0;
+    margin: 0 1em;
   }
 
   a.nav-link {
@@ -515,14 +517,31 @@ float:left;
     margin: .5em;
   }
 
+  .nb-photo-sm {
+    width: 39%;
+  }
+
   .nb-player-800 {
-  display: block;
-  visibility: visible;
+    display: block;
+    visibility: visible;
   }
 
   .nb-player {
    display: none;
    visibility: hidden;
+  }
+
+
+  .nb-wall {
+    width: 85%;
+  }
+
+  .nb-txt {
+    padding: 0 4em;
+  }
+
+  .nb-txt-wide {
+    padding: 0 4em;
   }
 }
 
@@ -660,16 +679,16 @@ a.nav-link {
   font-weight: 800;
   padding: 1em;
   color: #333;
-}
+  }
 
   nav {
     display: none;
   }
 
   hr {
-  display: block;
-  width:90%;
-  margin: auto;
+    display: block;
+    width:90%;
+    margin: auto;
   }
 
   a.nav-link {
@@ -694,25 +713,20 @@ a.nav-link {
     background-color: #fff;
   }
 
-.sub-mobile {
-  width: 90%;
-  margin: auto;
-  display: block;
-  background-color: #CCCFD2;
-}
+  .sub-mobile {
+    width: 90%;
+    margin: auto;
+    display: block;
+    background-color: #CCCFD2;
+  }
 
-.nav-mobile
-{
-  display: none;
-}
+  .nav-mobile {
+    display: none;
+  }
 
-/*adjacent sibling selector*/
   #toggle:checked + nav {
       display: block;
       clear:both;
       float: none;
   }
-/*issue with g5-col-last*/  
-@media only screen and (max-width: 515px) {
-
 }
