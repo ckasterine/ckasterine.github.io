@@ -370,6 +370,18 @@ a.active-page {
   margin: 2em;
 }
 
+.nb-photo-filmstill {
+  width:100%;
+}
+
+.nb-photo-filmstill img {
+  width:31.7%;
+  height: auto;
+  float: left;
+  margin:.5em;
+  border: .1em #666 solid;
+}
+
 .nb-player {
   width:100%;
   padding: 0 1em;
