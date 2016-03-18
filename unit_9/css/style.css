@@ -62,7 +62,7 @@ p {
   font-family: "Georgia", sans-serif;
 }
 
-/*link selectors 
+link selectors 
 a.contact {
   font-family: serif;
   font-size: 1.2em;
@@ -81,7 +81,6 @@ a.nb-citation {
   font-size: .9em;  
   text-decoration: none;
   float: right;
-  padding: 0 0 3em;
 }
 
 a.nb-citation:hover {
@@ -415,6 +414,8 @@ a.active-page {
   text-align: justify;
   float: right;
   padding: 3em;
+  border-top: #333 solid 1px;
+  border-bottom: #333 solid 1px;
 }
 
 .nb-txt p {
@@ -440,6 +441,7 @@ a.active-page {
   height: auto;
   display:block;
   margin: 0 auto;
+  padding: 2em 0 0;
 }
 
 .ns-padding {
