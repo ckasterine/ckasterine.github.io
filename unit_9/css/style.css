@@ -35,7 +35,6 @@ h1 {
   line-height: 1.5em;
   text-transform: uppercase;
   color: #333;
-  padding: 1em 0 0;
   text-align: left;
 }
 
@@ -46,9 +45,15 @@ h2 {
   color: #333;
 }
 
-hr {
-  display: none;
-}
+  hr {
+  /*  display: block;
+    width:50%;*/
+    margin: 0 auto;
+    border: 0;
+    height: .09em;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
 
 p {
   font-size: 1em;
@@ -57,7 +62,7 @@ p {
   font-family: "Georgia", sans-serif;
 }
 
-/*link selectors*/ 
+/*link selectors 
 a.contact {
   font-family: serif;
   font-size: 1.2em;
@@ -76,6 +81,7 @@ a.nb-citation {
   font-size: .9em;  
   text-decoration: none;
   float: right;
+  padding: 0 0 3em;
 }
 
 a.nb-citation:hover {
@@ -367,18 +373,18 @@ a.active-page {
   width: 40%;
   height:auto;
   float: left;
-  margin: 2em;
 }
 
 .nb-photo-filmstill {
   width:100%;
+  margin: 0 auto;
 }
 
 .nb-photo-filmstill img {
-  width:31.7%;
+  width:31%;
   height: auto;
   float: left;
-  margin:.5em;
+  margin:.7em;
   border: .1em #666 solid;
 }
 
@@ -408,7 +414,7 @@ a.active-page {
   width: 50%;
   text-align: justify;
   float: right;
-  padding: 3em 3em 0 0;
+  padding: 3em;
 }
 
 .nb-txt p {
@@ -418,13 +424,20 @@ a.active-page {
 .nb-txt-wide {
   width: 70%;
   text-align: justify;
-  padding: 0 2em;
+  padding: 2em;
 }
+
+/*.nb-txt-lft {
+  width: 70%;
+  text-align: justify;
+  padding: 0 2em;
+  margin:auto;
+}*/
+
 
 .nb-wall {
   width: 100%;
   height: auto;
-  border: .2em #666 solid;
   display:block;
   margin: 0 auto;
 }
@@ -707,12 +720,6 @@ a.nav-link {
 
   nav {
     display: none;
-  }
-
-  hr {
-    display: block;
-    width:90%;
-    margin: auto;
   }
 
   a.nav-link {
