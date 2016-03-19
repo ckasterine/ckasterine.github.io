@@ -36,6 +36,7 @@ h1 {
   text-transform: uppercase;
   color: #333;
   text-align: left;
+  text-decoration: none;
 }
 
 h2 { 
@@ -62,16 +63,16 @@ p {
   font-family: "Georgia", sans-serif;
 }
 
-link selectors 
+/*link selectors */
 a.contact {
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 1.2em;
-  color: #999;
+  color: #003399;
   text-decoration: none;
 }
 
 a.contact:hover {
-  color: #666;
+  color: #003399;
   text-decoration: underline;
 }
 
@@ -166,7 +167,7 @@ a.sub-link:hover {
 
 /*classes*/
 .copyright {
-  color: #999;
+  color: #003399;
   font-size: 0.8em;
   margin: .5em;
 }
