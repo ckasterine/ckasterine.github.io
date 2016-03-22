@@ -46,14 +46,13 @@ h2 {
   color: #333;
 }
 
-  hr {
-  /*  display: block;
-    width:50%;*/
-    margin: 0 auto;
-    border: 0;
-    height: .09em;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+hr {
+  clear:both;
+  margin: 0 auto;
+  border: 0;
+  height: .09em;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
   }
 
 p {
@@ -88,6 +87,10 @@ a.nb-citation:hover {
   color: #003399;
   font-style: inherit;
   text-decoration: underline;
+}
+
+#padding-citation {
+  padding: 1em 0;
 }
 
 a.nb-directions {
@@ -192,6 +195,13 @@ a.active-page {
 
 .gallery-text p{
   padding: 0 0 1em 0;
+}
+
+#gallery-list {
+  /*color:red;*/
+  display: block;
+  padding: 1em 0;
+  clear:both;
 }
 
 .g01-lft-squares {
