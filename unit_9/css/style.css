@@ -374,8 +374,9 @@ a.active-page {
 }
 
 .nav-bot-align {
-  width: 60%;
-  margin: 3em auto;
+  width: 56%;
+  margin: 2em auto;
+  display:block;
 }
 
 .nb-photo-sm {
@@ -438,14 +439,6 @@ a.active-page {
   text-align: justify;
   padding: 2em;
 }
-
-/*.nb-txt-lft {
-  width: 70%;
-  text-align: justify;
-  padding: 0 2em;
-  margin:auto;
-}*/
-
 
 .nb-wall {
   width: 100%;
@@ -530,7 +523,7 @@ float:left;
 
 /*tablets and phones*/
 /*nav, image, video breakpoint*/
-@media only screen and (max-width: 950px) 
+@media only screen and (max-width: 990px) 
 {
   h1 {
     font-size: 1.3em;
@@ -574,11 +567,10 @@ float:left;
   }
 
   .nb-txt {
-        width: 70%;
+    width: 70%;
     float: none;
     padding: 0;
     margin: .5em auto 2em;
-
   }
 
   .nb-txt-wide {
@@ -593,33 +585,29 @@ float:left;
     display: block;
     margin: 0 auto;
   }
-}
 
-/* sub nav breakpoint*/
-@media only screen and (max-width: 695px) {
-.sub-active {
-  font-size: .6em;
+/*sub nav breakpoint*/
+
+  a.sub {
+    padding: .5em 1.4em;
+    font-size:1.2em;
+    }
+
+  a.nav-link {
+  letter-spacing:normal;
+  } 
+
+  .sub-active {
+  font-size: .4em;
   }
-a.sub {
-  padding: .5em 1.4em;
-  font-size:1.3em;
-  }
+
+  .nav-bot-align {
+      width:  100%;
+    }
 }
 
 /*image breakpoints*/
 @media only screen and (max-width: 670px) {
-
-a.sub {
-    font-size:1.2em;
-  }
-
-a.nav-link {
- letter-spacing:normal;
-  } 
-
-.sub-active {
-  font-size: .4em;
-  }
 
 .g01-lft-squares {
   width: 100%;
