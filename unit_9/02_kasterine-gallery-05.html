@@ -5,6 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- 	Add jQuery library -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<!-- Add fancyBox jQuery and CSS -->	
+		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -37,13 +43,13 @@
 			<main>
 				<section class="clearfix g05">
 					<div class="g05-row">
-						<a class="fancybox" rel="group" href="images/02_kasterine_g05_fig01-z.jpg" title="Roald Dahl, England, 1978 - Dmitri Kasterine"><img src="images/02_kasterine_g05_fig01.jpg" alt="Natalie with Chicken by Dmitri Kasterine"></a>
+						<a class="fancybox" rel="group" href="images/02_kasterine_g05_fig01-z.jpg" title="Natalie with Chicken, New York, 2011 - Dmitri Kasterine"><img src="images/02_kasterine_g05_fig01.jpg" alt="Natalie with Chicken by Dmitri Kasterine"></a>
 
-						<img src="images/02_kasterine_g05_fig02.jpg" alt="Mick Jagger by Dmitri Kasterine">
+						<a class="fancybox" rel="group" href="images/02_kasterine_g05_fig02-z.jpg" title="Mick Jagger, Hollywood, 1975 - Dmitri Kasterine"><img src="images/02_kasterine_g05_fig02.jpg" alt="Mick Jagger by Dmitri Kasterine"></a>
 
-						<img src="images/02_kasterine_g05_fig03.jpg" alt="Damaris by Dmitri Kasterine">
+						<a class="fancybox" rel="group" href="images/02_kasterine_g05_fig03-z.jpg" title="Damaris, Newburgh, 2012 - Dmitri Kasterine"><img src="images/02_kasterine_g05_fig03.jpg" alt="Damaris by Dmitri Kasterine"></a>
 
-						<img src="images/02_kasterine_g05_fig04.jpg" alt="Young girl by Dmitri Kasterine">
+						<a class="fancybox" rel="group" href="images/02_kasterine_g05_fig04-z.jpg" title="Seven-year-old Writer, 2011 - Dmitri Kasterine"><img src="images/02_kasterine_g05_fig04.jpg" alt="Seven-year-old Writer, Brooklyn by Dmitri Kasterine"></a>
 					</div>
 
 					<div class="g05-col">
@@ -129,5 +135,10 @@
 				</div>
 			</footer>
 		</div>
+		<script type="text/javascript">
+				$(document).ready(function() {
+				$(".fancybox").fancybox();
+				});
+			</script>
 	</body>
 </html>

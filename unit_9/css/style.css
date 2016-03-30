@@ -392,11 +392,10 @@ a.active-page {
 }
 
 .nb-photo-filmstill img {
-  width:31%;
+  width:33%;
   height: auto;
   float: left;
-  margin:.7em;
-  border: .1em #666 solid;
+  padding: 1em;
 }
 
 .nb-player {
@@ -409,16 +408,28 @@ a.active-page {
   height: 563px;
 }
 
-.nb-player-800 {
+.nb-player-750 {
   display: none;
   visibility: hidden;
   width: 100%;
   text-align: center;
 }
 
-.nb-player-800 iframe{
-  width: 800px;
-  height: 450px;
+.nb-player-750 iframe{
+  width: 750px;
+  height: 422px;
+}
+
+.nb-player-520 {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.nb-player-520 iframe{
+  width: 520px;
+  height: 292px;
 }
 
 .nb-txt {
@@ -527,6 +538,7 @@ float:left;
 {
   h1 {
     font-size: 1.3em;
+    line-height: 2em;
   }
 
   nav {
@@ -552,7 +564,7 @@ float:left;
     width: 39%;
   }
 
-  .nb-player-800 {
+  .nb-player-750 {
     display: block;
     visibility: visible;
   }
@@ -563,7 +575,7 @@ float:left;
   }
 
   .nb-wall {
-    width: 85%;
+    padding: 1em;
   }
 
   .nb-txt {
@@ -571,6 +583,8 @@ float:left;
     float: none;
     padding: 0;
     margin: .5em auto 2em;
+    border-top: 0px;
+    border-bottom: 0px;
   }
 
   .nb-txt-wide {
@@ -586,8 +600,11 @@ float:left;
     margin: 0 auto;
   }
 
-/*sub nav breakpoint*/
+ .nb-photo-filmstill {
+    width:80%;
+  }
 
+/*sub nav breakpoint*/
   a.sub {
     padding: .5em 1.4em;
     font-size:1.2em;
@@ -703,7 +720,6 @@ float:left;
  #g02-barrow {
   width: 100%;
   }
-
 }
 
 /*dropdown menu*/
@@ -721,6 +737,14 @@ float:left;
 
   nav {
     display: none;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+ h2 {
+    font-size: .9em;
   }
 
   a.nav-link {
@@ -745,15 +769,45 @@ float:left;
     background-color: #fff;
   }
 
-  .sub-mobile {
+  a.nb-citation {
+    float: none;
+  }
+
+  .gallery-text {
+    width: 73%;
+    text-align: left;
+  }
+  
+  .nav-mobile {
+    display: none;
+  }
+
+  .nb-photo-filmstill {
+    width:90%;
+  }
+
+  .nb-photo-filmstill img {
+    width:90%;
+    float:none;
+    margin:auto;
+    display:block;
+  }
+
+  .nb-player-750 {
+    visibility: hidden;
+    display: none;
+  }
+
+  .nb-player-520 {
+    display: block;
+    visibility: visible;
+  }
+
+.sub-mobile {
     width: 90%;
     margin: auto;
     display: block;
     background-color: #CCCFD2;
-  }
-
-  .nav-mobile {
-    display: none;
   }
 
   #toggle:checked + nav {
