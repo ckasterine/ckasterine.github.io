@@ -37,6 +37,7 @@ h1 {
   color: #333;
   text-align: left;
   text-decoration: none;
+  clear:both;
 }
 
 h2 { 
@@ -373,6 +374,30 @@ a.active-page {
   margin: 0 1em;
 }
 
+.info-photo-sm {
+  clear: both;
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: .5em;
+  background-color: yellow;
+}
+
+.info-txt {
+  width: 50%;
+  text-align: justify;
+  float: right;
+  padding: 3em;
+  background-color:red;
+/*  border-top: #333 solid 1px;
+  border-bottom: #333 solid 1px;*/
+}
+
+.info-txt-wide {
+  width: 92%;
+  margin: auto;
+}
+
 .nav-bot-align {
   width: 56%;
   margin: 2em auto;
@@ -456,7 +481,7 @@ a.active-page {
   width: 100%;
   height: auto;
   display: block;
-  margin: 2em auto;
+  margin: auto;
   border: .1em #666 solid;
 }
 
@@ -592,7 +617,6 @@ float:left;
   }
 
   .nb-txt-wide {
-    width: 70%;
     padding: 0;
     margin: .5em auto 2em;
   }
@@ -803,6 +827,15 @@ float:left;
     display: block;
     visibility: visible;
   }
+
+  .nb-txt {
+    text-align: left;
+  }
+
+  .nb-txt-wide  {
+    text-align: left;
+  }
+
 
 .sub-mobile {
     width: 90%;
