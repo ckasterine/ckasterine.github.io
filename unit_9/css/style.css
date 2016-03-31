@@ -389,13 +389,17 @@ a.active-page {
   text-align: justify;
   float: right;
   padding: 0 2em;
-/*  background-color:red;
-*//*  border-top: #333 solid 1px;
-  border-bottom: #333 solid 1px;
-*/}
+}
 
 .info-txt p{
   padding: 0 0 1em 0;
+}
+
+.info-txt-contact{
+  width: 60%;
+  text-align: justify;
+  float: right;
+  padding: 0 2em 2em;
 }
 
 .info-txt-wide {
@@ -480,6 +484,11 @@ a.active-page {
   width: 70%;
   text-align: justify;
   padding: 2em;
+  margin: 0 auto;
+}
+
+.nb-txt-wide p {
+   padding: 0 0 1em 0;
 }
 
 .nb-wall {
