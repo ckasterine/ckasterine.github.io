@@ -30,7 +30,7 @@ nav {
 }
 
 h1 { 
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 900;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -376,21 +376,26 @@ a.active-page {
 
 .info-photo-sm {
   clear: both;
-  width: 30%;
+  width: 36%;
   height: auto;
   float: left;
-  padding: .5em;
-  background-color: yellow;
+  margin: 0 1em 1em;
+  padding: .25em;
+  background-color: #999;
 }
 
 .info-txt {
-  width: 50%;
+  width: 60%;
   text-align: justify;
   float: right;
-  padding: 3em;
-  background-color:red;
-/*  border-top: #333 solid 1px;
-  border-bottom: #333 solid 1px;*/
+  padding: 0 2em;
+/*  background-color:red;
+*//*  border-top: #333 solid 1px;
+  border-bottom: #333 solid 1px;
+*/}
+
+.info-txt p{
+  padding: 0 0 1em 0;
 }
 
 .info-txt-wide {
@@ -421,7 +426,7 @@ a.active-page {
   width:33%;
   height: auto;
   float: left;
-  padding: 1em;
+  padding: .5em;
 }
 
 .nb-player {
@@ -563,7 +568,7 @@ float:left;
 @media only screen and (max-width: 990px) 
 {
   h1 {
-    font-size: 1.3em;
+    /*font-size: 1.2em;*/
     line-height: 2em;
   }
 
