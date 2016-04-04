@@ -65,9 +65,9 @@ p {
 
 /*link selectors */
 a.contact {
-  font-family: sans-serif;
-  font-size: 1.2em;
-  font-weight: 600;
+  font-family: serif;
+  font-size: 1em;
+  font-weight: 400;
   letter-spacing: .05em;
   color: #003399;
   text-decoration: none;
@@ -104,6 +104,19 @@ a.nb-directions {
 
 a.nb-directions:hover {
   /*color: #003399;*/
+  font-style: inherit;
+  text-decoration: underline;
+}
+
+a.inline {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #003399;
+  font-family: "Georgia", sans-serif;
+  text-decoration: none;
+}
+
+a.inline:hover{
   font-style: inherit;
   text-decoration: underline;
 }
@@ -174,10 +187,10 @@ a.sub-link:hover {
 /*classes*/
 .copyright {
   color: #003399;
-  font-size: 0.8em;
-  margin: .5em;
-  font-weight: 600;
-}
+  font-size: 1em;
+  /*margin: .5em;*/
+/*  font-weight:400;
+*/}
 
 a.active-page {
   color: #333;
@@ -202,7 +215,7 @@ a.active-page {
 }
 
 #gallery-list {
-  /*color:red;*/
+  /*color:ed;*/
   display: block;
   padding: 1em 0;
   clear:both;
@@ -379,10 +392,10 @@ a.active-page {
 
 .info-photo-sm {
   clear: both;
-  width: 36%;
+  width: 40%;
   height: auto;
   float: left;
-  margin: 0 1em 1em;
+  margin: 0 0 2em 0;
   padding: .25em;
   background-color: #999;
 }
@@ -402,12 +415,17 @@ a.active-page {
   width: 60%;
   text-align: justify;
   float: right;
-  padding: 0 2em 2em;
+  padding: 0 2em 1em;
 }
 
 .info-txt-wide {
-  width: 92%;
-  margin: auto;
+  width: 70%;
+  text-align: justify;
+  /*margin:auto;*/
+}
+
+.info-txt-wide p{
+  padding: 0 0 1em 0
 }
 
 .nav-bot-align {
@@ -419,7 +437,6 @@ a.active-page {
 .nb-photo-sm {
   width: 40%;
   height:auto;
-  margin: 2em;
   border: .1em #666 solid;
   float: left;
 }
@@ -474,9 +491,9 @@ a.active-page {
   width: 50%;
   text-align: justify;
   float: right;
-  padding: 3em;
-  border-top: #333 solid 1px;
-  border-bottom: #333 solid 1px;
+  padding: 2.5em;
+  /*border-top: #333 solid 1px;
+  border-bottom: #333 solid 1px;*/
 }
 
 .nb-txt p {
@@ -508,9 +525,9 @@ a.active-page {
 
 .page-footer {
   width: 100%;
-  margin: 0 auto;
+/*  margin: 0 auto;*/
   float: left;
-  padding: 1.5em;
+  padding: 1.5em 0;
 }
 
 .photo-page-small {
@@ -629,8 +646,6 @@ float:left;
     float: none;
     padding: 0;
     margin: .5em auto 2em;
-    border-top: 0px;
-    border-bottom: 0px;
   }
 
   .nb-txt-wide {
