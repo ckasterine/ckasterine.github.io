@@ -439,6 +439,7 @@ a.active-page {
   height:auto;
   border: .1em #666 solid;
   float: left;
+  margin: 0 1em;
 }
 
 .nb-photo-filmstill {
@@ -628,7 +629,8 @@ float:left;
   }
 
  .nb-photo-filmstill {
-    width:80%;
+    width:85%;
+    margin: 0 auto;
   }
 
   .nb-player-750 {
@@ -654,7 +656,7 @@ float:left;
   }
 
   .nb-wall {
-    width: 80%;
+    width: 85%;
   }
 
 /*sub nav breakpoint*/
