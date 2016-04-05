@@ -392,19 +392,19 @@ a.active-page {
 
 .info-photo-sm {
   clear: both;
-  width: 36%;
+  width: 38%;
   height: auto;
   float: left;
-  margin: 0 1em;
+  margin: 0 .6em;
   padding: .25em;
-  background-color: #999;
+  background-color: #666;
 }
 
 .info-txt {
   width: 60%;
   text-align: justify;
   float: right;
-  padding: 0 2em;
+  padding: 0 4em;
 }
 
 .info-txt p{
@@ -415,13 +415,14 @@ a.active-page {
   width: 60%;
   text-align: justify;
   float: right;
-  padding: 0 2em 1em;
+  padding: 0 4em 1em;
 }
 
 .info-txt-wide {
+  clear: both;
   width: 70%;
   text-align: justify;
-  margin: 0 1em;
+  padding: 2em 1em;
 }
 
 .info-txt-wide p{
@@ -568,6 +569,10 @@ display:none;
 }
 
 /*IDs*/
+#emphasis {
+  font-style: italic;
+}
+
 #toggle {
   display: none;
 }
@@ -598,7 +603,7 @@ float:left;
 @media only screen and (max-width: 990px) 
 {
   h1 {
-    /*font-size: 1.2em;*/
+    font-size: 1.1em;
     line-height: 2em;
   }
 
@@ -621,6 +626,32 @@ float:left;
     margin: .5em;
   }
 
+  .info-photo-sm {
+    width: 35%;
+    height: auto;
+    margin: 2em 0 0 3em;
+  }
+
+  .info-txt {
+    float: right;
+    width: 58%;
+    padding: 0 1em; 
+  }
+
+  .info-txt p {
+    padding: 0;
+  }
+
+  .info-txt-contact {
+    text-align: left;
+    padding: 2em;
+  }
+
+.info-txt-wide {
+    width: 75%;
+    padding: 0 3em;
+}
+
  .nb-photo-sm {
     width: 50%;
     float: none;
@@ -639,8 +670,8 @@ float:left;
   }
 
   .nb-player {
-   display: none;
-   visibility: hidden;
+    display: none;
+    visibility: hidden;
   }
 
  .nb-txt {
@@ -659,23 +690,51 @@ float:left;
     width: 85%;
   }
 
-/*sub nav breakpoint*/
   a.sub {
     padding: .5em 1.4em;
     font-size:1.2em;
     }
 
   a.nav-link {
-  letter-spacing:normal;
+    letter-spacing:normal;
   } 
 
   .sub-active {
-  font-size: .4em;
+    font-size: .4em;
   }
 
   .nav-bot-align {
       width:  100%;
     }
+}
+
+@media only screen and (max-width: 960px) {
+  .info-photo-sm {
+    display: none;
+    visibility: hidden;
+  }
+ 
+  .info-txt {
+    float:none;
+    padding: 0 2.5em;
+    text-align: left;
+    width: 75%;
+  }
+
+  .info-txt-contact {
+    float: none;
+    padding: 0 0 1em 2.5em;
+
+  }
+
+ .info-txt-wide {
+    width: 95%;
+    padding: 1em 2.5em;
+  }
+  .page-footer {
+ 
+  padding: 0 1.5em;
+  }
 }
 
 /*image breakpoints*/
@@ -800,6 +859,19 @@ float:left;
 
  h2 {
     font-size: .9em;
+  }
+
+  .info-txt {
+    width: 95%;
+  }
+
+  .info-txt-contact {
+    width: 90%;
+
+  }
+
+ .info-txt-wide {
+   text-align: left;
   }
 
   a.nav-link {
