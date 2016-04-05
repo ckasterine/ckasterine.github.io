@@ -437,7 +437,7 @@ a.active-page {
 .nb-photo-sm {
   width: 40%;
   height:auto;
-  border: .1em #666 solid;
+  border: .1em #333 solid;
   float: left;
   margin: 0 1em;
 }
