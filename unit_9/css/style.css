@@ -874,6 +874,18 @@ float:left;
    text-align: left;
   }
 
+  a.contact {
+    font-size: .9em;
+  }
+
+   a.logo {
+    width:100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+  }
+
   a.nav-link {
     display: block;
     width: 90%;
@@ -884,27 +896,26 @@ float:left;
     margin: auto;
   } 
 
-  a.sub {
-    display: none;
-  }
-
-  a.logo {
-    width:100%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #fff;
-  }
-
   a.nb-citation {
     float: none;
   }
 
+  a.sub {
+    display: none;
+  }
+  
+  .copyright {
+    font-size: .8em;
+  }
   .gallery-text {
     width: 73%;
     text-align: left;
   }
   
+  .home-imgtitle {
+    visibility: hidden;
+    display:none;
+  }
   .nav-mobile {
     display: none;
   }
@@ -943,7 +954,7 @@ float:left;
   }
 
 
-.sub-mobile {
+  .sub-mobile {
     width: 90%;
     margin: auto;
     display: block;
