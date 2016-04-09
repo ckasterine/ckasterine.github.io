@@ -64,17 +64,21 @@ p {
 }
 
 /*link selectors */
+a.active-page {
+  color: #333;
+  float: left;
+}
+
 a.contact {
   font-family: serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: .05em;
-  color: #003399;
+  color: #999;
   text-decoration: none;
 }
 
 a.contact:hover {
-  /*color: #003399;*/
   text-decoration: underline;
 }
 
@@ -87,13 +91,8 @@ a.nb-citation {
 }
 
 a.nb-citation:hover {
-  /*color: #003399;*/
   font-style: inherit;
   text-decoration: underline;
-}
-
-#padding-citation {
-  padding: 1em 0;
 }
 
 a.nb-directions {
@@ -103,7 +102,6 @@ a.nb-directions {
 }
 
 a.nb-directions:hover {
-  /*color: #003399;*/
   font-style: inherit;
   text-decoration: underline;
 }
@@ -186,15 +184,8 @@ a.sub-link:hover {
 
 /*classes*/
 .copyright {
-  color: #003399;
+  color: #999;
   font-size: 1em;
-  /*margin: .5em;*/
-/*  font-weight:400;
-*/}
-
-a.active-page {
-  color: #333;
-  float: left;
 }
 
 .current-page {
@@ -212,13 +203,6 @@ a.active-page {
 
 .gallery-text p{
   padding: 0 0 1em 0;
-}
-
-#gallery-list {
-  /*color:ed;*/
-  display: block;
-  padding: 1em 0;
-  clear:both;
 }
 
 .g01-lft-squares {
@@ -386,7 +370,8 @@ a.active-page {
   font-family: serif;
   float: right;
   color: #999;
-  font-size: 1.2em;
+  font-size: 1em;
+  letter-spacing: .02em;
   margin: 0 1em;
 }
 
@@ -494,8 +479,6 @@ a.active-page {
   text-align: justify;
   float: right;
   padding: 2.5em;
-  /*border-top: #333 solid 1px;
-  border-bottom: #333 solid 1px;*/
 }
 
 .nb-txt p {
@@ -538,6 +521,11 @@ a.active-page {
   font-size: .7em;
 }
 
+.sitedesign {
+  float: left;
+  margin: 0 1.2em;
+
+}
 .sub-active {
   font-size: .7em;
   text-decoration: none;
@@ -577,6 +565,12 @@ display:none;
   display: none;
 }
 
+#gallery-list {
+  display: block;
+  padding: 1em 0;
+  clear:both;
+}
+
 #g02-barrow {
   width: 100%;
   height: auto;
@@ -592,6 +586,10 @@ padding: .5em;
 #g04-col-lg-sq {
 width: 100%;
 float:left;
+}
+
+#padding-citation {
+  padding: 1em 0;
 }
 
 #sub-link-active{
@@ -731,8 +729,8 @@ float:left;
     width: 95%;
     padding: 1em 2.5em;
   }
+
   .page-footer {
- 
   padding: 0 1.5em;
   }
 }
@@ -867,7 +865,6 @@ float:left;
 
   .info-txt-contact {
     width: 90%;
-
   }
 
  .info-txt-wide {
@@ -907,6 +904,7 @@ float:left;
   .copyright {
     font-size: .8em;
   }
+
   .gallery-text {
     width: 73%;
     text-align: left;
@@ -916,6 +914,7 @@ float:left;
     visibility: hidden;
     display:none;
   }
+
   .nav-mobile {
     display: none;
   }
@@ -953,6 +952,16 @@ float:left;
     text-align: left;
   }
 
+  .page-footer {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .sitedesign {
+    visibility: hidden;
+    display:none;
+  }
 
   .sub-mobile {
     width: 90%;
