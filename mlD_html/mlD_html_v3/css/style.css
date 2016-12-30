@@ -50,8 +50,9 @@ a.nav-book {
 
 .background-image {
 	margin: 0;
-	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed; 
+	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
 	background-size: cover;
+  background-position: left top; 
 }
 
 .container {
@@ -76,14 +77,11 @@ a.nav-book {
 .home-panel {
 	background-color: white;
 	position: relative;
-  padding: 3em;
+  margin:  0 auto;
+  text-align: justify;
+  padding: 3em 3em 6em 3em;
 	width: 40%;
   height: auto;
-	margin:  0 auto;
-  position: relative;
-/*	text-align: justify;
-  background-size: 100%;*/
-
 }
 
 .txt-logo {
