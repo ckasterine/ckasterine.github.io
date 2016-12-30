@@ -22,29 +22,42 @@ p {
 
 /*link selectors */
 a.nav-main {
+  font: Helvetica, Arial;
   float: left;
-  text-decoration: none;
   font-size: 1em;
   font-weight: 700;
   letter-spacing: .02em;
+  text-decoration: none;
   color: #009933;
-  padding: .5em;
+  padding: 1em 2em;
   /*margin: .5em;*/
-  border: 1px solid rgb(127, 0, 0);
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
   background-color: white;
+  box-shadow: 20px 5px 20px #666666;
+}
+
+a.nav-main:hover {
+  color: #0066cc;
+  /*text-decoration: underline;*/
 }
 
 a.nav-book {
   text-decoration: none;
-  font-size: 1em;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 400;
   letter-spacing: .02em;
-  color: #999;
-  padding: 1em 1.2em;
-  margin: .5em;
-  border: 1px solid rgb(127, 0, 0);
+  color: #009933;
+  /*padding: 1em;
+  margin: .5em;*/
+  /*border: 1px solid rgb(127, 0, 0);*/
   display: inline-block;
 }
+
+a.nav-book:hover {
+  color: #0066cc;
+/*  text-decoration: underline;
+*/}
 
 /*classes*/
 
@@ -65,9 +78,9 @@ a.nav-book {
   justify-content: center;
 }
 
-/*.nav-main-center {
+.nav-main-center {
   width: 100%;
-}*/
+}
 
 .home-img {
   	display: block;
@@ -84,13 +97,18 @@ a.nav-book {
 	position: relative;
   margin:  0 auto;
   text-align: justify;
-  padding: 3em 3em 6em 3em;
-	width: 50%;
+  padding: 2em;
+	width: 45%;
   height: auto;
 }
 
 .txt-logo {
 text-align: center;
+font-size: 1.5em;
+}
+
+.txt-logo-mw {
+color: #009933; 
 }
 
 .wrapper {
