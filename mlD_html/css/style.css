@@ -1,6 +1,4 @@
-
-@import url(https://fonts.googleapis.com/css?family=Asul);
-
+@import url('https://fonts.googleapis.com/css?family=Asul|Open+Sans:300i,400,400i');
 
 * {
   margin: 0; 
@@ -18,41 +16,42 @@ body {
 
 p {
   font-size: 1em;
-  line-height: 1.5em;
-  color: #333;
-  font-family: "Georgia", sans-serif;
+  line-height: 1em;
+  color: #333333;
 }
 
 
 /*link selectors */
 a.nav-main {
-  font: Helvetica, Arial;
+  font-family: 'Open Sans', sans-serif;
   float: left;
   font-size: 1em;
   font-weight: 400;
+  font-style: italic;
   letter-spacing: .02em;
   text-decoration: none;
-  color: #009933;
+  color: #ff6633;
   padding: 1em 2em;
   /*margin: .5em;*/
-  border-top: 1px solid #006633;
-  border-bottom: 1px solid #006633;
+  border-top: 1px solid #6699cc;
+  border-bottom: 2px solid #6699cc;
   background-color: white;
-  box-shadow: 80px 40px 80px #006633;
-}
+/*  box-shadow: 30px 20px 30px #333333;
+*/}
 
 a.nav-main:hover {
   color: #ffffff;
-  background-color: #006633;
+  background-color: #6699cc;
   /*text-decoration: underline;*/
 }
 
 a.nav-book {
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 400;
   letter-spacing: .02em;
-  color: #009933;
+  color: #ff6633;
   /*padding: 1em;
   margin: .5em;*/
   /*border: 1px solid rgb(127, 0, 0);*/
@@ -60,7 +59,7 @@ a.nav-book {
 }
 
 a.nav-book:hover {
-  color: #0066cc;
+  color: #6699cc;
 /*  text-decoration: underline;
 */}
 
@@ -110,13 +109,20 @@ a.nav-book:hover {
 .txt-logo {
   font-family: 'Asul', serif;
   text-align: center;
+  font-weight: 400;
   font-size: 1.5em;
 }
 
 .txt-logo-mld {
-color: #009933; 
+color: #009933;
+font-size: 2em;
 text-transform: uppercase;
 
+}
+
+#txt-logo-sub {
+    text-align: center;
+    font-size: 1em;
 }
 
 .wrapper {
