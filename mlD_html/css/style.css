@@ -1,3 +1,7 @@
+
+@import url(https://fonts.googleapis.com/css?family=Asul:200);
+
+
 * {
   margin: 0; 
   padding: 0;
@@ -25,20 +29,21 @@ a.nav-main {
   font: Helvetica, Arial;
   float: left;
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .02em;
   text-decoration: none;
   color: #009933;
   padding: 1em 2em;
   /*margin: .5em;*/
-  border-top: 1px solid #666666;
-  border-bottom: 1px solid #666666;
+  border-top: 1px solid #006633;
+  border-bottom: 1px solid #006633;
   background-color: white;
-  box-shadow: 20px 5px 20px #666666;
+  box-shadow: 80px 40px 80px #006633;
 }
 
 a.nav-main:hover {
-  color: #0066cc;
+  color: #ffffff;
+  background-color: #006633;
   /*text-decoration: underline;*/
 }
 
@@ -103,12 +108,15 @@ a.nav-book:hover {
 }
 
 .txt-logo {
-text-align: center;
-font-size: 1.5em;
+  font-family: 'Asul';
+  text-align: center;
+  font-size: 1.5em;
 }
 
-.txt-logo-mw {
+.txt-logo-mld {
 color: #009933; 
+text-transform: uppercase;
+
 }
 
 .wrapper {
