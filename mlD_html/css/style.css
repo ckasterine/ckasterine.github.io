@@ -1,5 +1,5 @@
 
-@import url(https://fonts.googleapis.com/css?family=Asul:200);
+@import url(https://fonts.googleapis.com/css?family=Asul);
 
 
 * {
@@ -108,7 +108,7 @@ a.nav-book:hover {
 }
 
 .txt-logo {
-  font-family: 'Asul';
+  font-family: 'Asul', serif;
   text-align: center;
   font-size: 1.5em;
 }
