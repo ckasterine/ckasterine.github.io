@@ -7,7 +7,6 @@
  }
 
  /*element selectors*/ 
-
 body {
   color: #333;
   font-family: "Helvetica", "Arial", sans-serif;
@@ -32,17 +31,14 @@ a.nav-main {
   text-decoration: none;
   color: #ff6633;
   padding: 1em 2em;
-  /*margin: .5em;*/
   border-top: 1px solid #6699cc;
   border-bottom: 2px solid #6699cc;
   background-color: white;
-/*  box-shadow: 30px 20px 30px #333333;
-*/}
+}
 
 a.nav-main:hover {
   color: #ffffff;
   background-color: #6699cc;
-  /*text-decoration: underline;*/
 }
 
 a.nav-book {
@@ -52,19 +48,15 @@ a.nav-book {
   font-weight: 400;
   letter-spacing: .02em;
   color: #ff6633;
-  /*padding: 1em;
-  margin: .5em;*/
-  /*border: 1px solid rgb(127, 0, 0);*/
   display: inline-block;
+  justify-content: center;
 }
 
 a.nav-book:hover {
   color: #6699cc;
-/*  text-decoration: underline;
-*/}
+}
 
 /*classes*/
-
 .background-image {
 	margin: 0;
 	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
@@ -73,20 +65,14 @@ a.nav-book:hover {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-main-container {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-main-center {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .home-img {
+    width: 100%;
+    height: auto;
   	display: block;
   	margin: 0 auto;
 }
@@ -94,6 +80,8 @@ a.nav-book:hover {
 .home-logo {
 	width: 45%;
 	height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .home-panel {
@@ -101,9 +89,9 @@ a.nav-book:hover {
 	position: relative;
   margin:  0 auto;
   text-align: justify;
-  padding: 2em;
 	width: 45%;
   height: auto;
+  padding: 1em;
 }
 
 .txt-logo {
@@ -120,15 +108,16 @@ text-transform: uppercase;
 
 }
 
-#txt-logo-sub {
-    text-align: center;
-    font-size: 1em;
-}
-
 .wrapper {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+/*ids*/
+#txt-logo-sub {
+    text-align: center;
+    font-size: 1em;
 }
 
 /*psuedo elements*/
