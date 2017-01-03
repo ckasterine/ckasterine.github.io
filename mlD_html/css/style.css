@@ -69,6 +69,11 @@ a.nav-book:hover {
   justify-content: center;
 }
 
+.copyright {
+  font-family: serif;
+  font-size: .8em
+}
+
 .home-img {
     width: 100%;
     height: auto;
@@ -92,6 +97,17 @@ a.nav-book:hover {
 	width: 45%;
   height: auto;
   padding: 1em;
+}
+
+.home-panel-cr {
+  background-color: white;
+  position: relative;
+  margin:  0 auto;
+  text-align: justify;
+  width: 45%;
+  height: auto;
+  padding-top: 5em;
+  padding-bottom: 2em;
 }
 
 .txt-logo {
