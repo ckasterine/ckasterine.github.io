@@ -19,7 +19,6 @@ p {
   color: #333333;
 }
 
-
 /*link selectors */
 a.nav-main {
   font-family: 'Open Sans', sans-serif;
@@ -78,9 +77,10 @@ a.nav-book:hover {
 }
 
 .home-logo {
-	width: 45%;
+	width: 40%;
 	height: auto;
   display: block;
+  padding: .7em;
   margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ a.nav-book:hover {
 
 .txt-logo-mld {
 color: #009933;
-font-size: 2em;
+font-size: 2.3em;
 text-transform: uppercase;
 
 }
@@ -117,7 +117,7 @@ text-transform: uppercase;
 /*ids*/
 #txt-logo-sub {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 /*psuedo elements*/
