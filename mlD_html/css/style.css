@@ -74,22 +74,14 @@ a.nav-book:hover {
   font-size: .8em
 }
 
-.home-img {
+.img-home {
     width: 100%;
     height: auto;
   	display: block;
   	margin: 0 auto;
 }
 
-.home-logo {
-	width: 40%;
-	height: auto;
-  display: block;
-  padding: .7em;
-  margin: 0 auto;
-}
-
-.home-panel {
+.panel-home {
 	background-color: white;
 	position: relative;
   margin:  0 auto;
@@ -99,7 +91,7 @@ a.nav-book:hover {
   padding: 1em;
 }
 
-.home-panel-cr {
+.panel-home-cr {
   background-color: white;
   position: relative;
   margin:  0 auto;
@@ -110,18 +102,41 @@ a.nav-book:hover {
   padding-bottom: 2em;
 }
 
-.txt-logo {
+.logo-img-home {
+  width: 40%;
+  height: auto;
+  display: block;
+  padding: .7em;
+  margin: 0 auto;
+}
+
+.logo-pages {
+  float: left;
+  width: 40%%;
+  height: auto;
+  display: block;
+  padding: .7em;
+  margin: 0 auto;
+}
+
+.logo-txt-home {
   font-family: 'Asul', serif;
   text-align: center;
   font-weight: 400;
   font-size: 1.5em;
 }
 
-.txt-logo-mld {
-color: #009933;
-font-size: 2.3em;
-text-transform: uppercase;
+.logo-txt-home-mld {
+  color: #009933;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
 
+.logo-txt-pages {
+  font-family: 'Asul', serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 .wrapper {
@@ -131,7 +146,7 @@ text-transform: uppercase;
 }
 
 /*ids*/
-#txt-logo-sub {
+#logo-txt-sub {
     text-align: center;
     font-size: 1.2em;
 }
