@@ -20,6 +20,43 @@ p {
 }
 
 /*link selectors */
+a.logo-txt-pages {
+  font-family: 'Asul', serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0;
+  width: 85%;
+  text-decoration: none;
+}
+
+a.logo-txt-pages-mld {
+  font-family: 'Asul', serif;
+  color: #009933;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+    a.logo-txt-pages:hover {
+
+    }
+
+a.nav-book {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: .02em;
+  color: #ff6633;
+  display: inline-block;
+  justify-content: center;
+}
+
+a.nav-book:hover {
+  color: #6699cc;
+}
+
 a.nav-main {
   font-family: 'Open Sans', sans-serif;
   float: left;
@@ -40,19 +77,24 @@ a.nav-main:hover {
   background-color: #6699cc;
 }
 
-a.nav-book {
+a.nav-pages {
   font-family: 'Open Sans', sans-serif;
-  text-decoration: none;
   font-size: 1em;
   font-weight: 400;
+  font-style: italic;
   letter-spacing: .02em;
+  text-decoration: none;
   color: #ff6633;
-  display: inline-block;
-  justify-content: center;
+  padding: 1em;
+  border-top: 1px solid #6699cc;
+  border-bottom: 1px solid #6699cc;
+  background-color: white;
+  float:left;
 }
 
-a.nav-book:hover {
-  color: #6699cc;
+a.nav-pages:hover {
+  color: #ffffff;
+  background-color: #6699cc;
 }
 
 /*classes*/
@@ -69,6 +111,12 @@ a.nav-book:hover {
   justify-content: center;
 }
 
+.container-pages {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
 .copyright {
   font-family: serif;
   font-size: .8em
@@ -81,12 +129,53 @@ a.nav-book:hover {
   	margin: 0 auto;
 }
 
+.logo-txt-home-mld {
+  color: #009933;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+
+.logo-img-home {
+  width: 40%;
+  height: auto;
+  display: block;
+  padding: .7em;
+  margin: 0 auto;
+}
+
+.logo-pages {
+  float: right;
+  width: 100%;
+  height: auto; 
+ /* display: block;*/
+  /*padding: .7em;
+  margin: 0 auto;*/
+}
+
+.logo-txt-home {
+  font-family: 'Asul', serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.logo-float-pages{
+  float: left;
+  padding-top: 1em;
+}
+
+.nav-float-pages {
+  float: right;
+  padding-top: 2em;
+
+}
+
 .panel-home {
-	background-color: white;
-	position: relative;
+  background-color: white;
+  position: relative;
   margin:  0 auto;
   text-align: justify;
-	width: 45%;
+  width: 45%;
   height: auto;
   padding: 1em;
 }
@@ -102,52 +191,62 @@ a.nav-book:hover {
   padding-bottom: 2em;
 }
 
-.logo-img-home {
-  width: 40%;
-  height: auto;
-  display: block;
-  padding: .7em;
-  margin: 0 auto;
+.site {
+  background-color: green;
 }
-
-.logo-pages {
-  float: left;
-  width: 40%%;
-  height: auto;
-  display: block;
-  padding: .7em;
-  margin: 0 auto;
-}
-
-.logo-txt-home {
-  font-family: 'Asul', serif;
-  text-align: center;
-  font-weight: 400;
-  font-size: 1.5em;
-}
-
-.logo-txt-home-mld {
-  color: #009933;
-  font-size: 2.3em;
-  text-transform: uppercase;
-}
-
-.logo-txt-pages {
-  font-family: 'Asul', serif;
-  text-align: left;
-  font-weight: 400;
-  font-size: 1.5em;
-}
-
 .wrapper {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
 }
 
+.bkground-pages {
+background-color: white; 
+padding: 0 1em;
+}
+
+.mld-player {
+  width:100%;
+  padding: 0 1em;
+}
+
+.mld-player iframe {
+  width: 1000px;
+  height: 563px;
+}
+
+.mld-player-750 {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.mld-player-750 iframe{
+  width: 750px;
+  height: 422px;
+}
+
+.mld-player-500 {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.mld-player-500 iframe{
+  width: 500px;
+  height: 281px;
+}
+
 /*ids*/
 #logo-txt-sub {
     text-align: center;
+    font-size: 1.2em;
+}
+
+#logo-txt-sub-pages {
+    text-align: left;
     font-size: 1.2em;
 }
 
