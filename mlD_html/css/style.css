@@ -205,11 +205,11 @@ background-color: white;
 padding: 0 1em;
 }
 
-.mld-player {
+/*.mld-player {
   width:100%;
   padding: 0 1em;
 }
-
+*/
 .mld-player iframe {
   width: 1000px;
   height: 563px;
