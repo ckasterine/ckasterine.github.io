@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Asul|Open+Sans:300i,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Asul|Open+Sans:300i,400,400i,700');
 
 * {
   margin: 0; 
@@ -9,24 +9,31 @@
  /*element selectors*/ 
 body {
   color: #333;
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;  font-size: 100%;
 }
 
-p {
+li p {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1em;
   color: #333333;
+  margin: 1em;
 }
 
-.header-pages {
-  font-family: 'Asul', serif;
-  font-size: 1.5em;
-  color: #009933;
-  text-align: center;
-  margin: 1em 0;
+ul {
+  list-style-type: square;
+  list-style-position: inside;
 }
 
+.ul-bold {
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.li-normal {
+  font-weight:400;
+}
 /*link selectors */
 a.logo-txt-pages {
   font-family: 'Asul', serif;
@@ -130,12 +137,36 @@ a.nav-pages:hover {
   font-size: .8em
 }
 
+.header-pages {
+  font-family: 'Asul', serif;
+  font-size: 1.5em;
+  color: #009933;
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+
+.header-sub-pages {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 1em 0;
+}
+
 .img-home {
     width: 100%;
     height: auto;
   	display: block;
   	margin: 0 auto;
 }
+
+.list-pages {
+width: 50%;
+margin: 0 auto;
+/*text-align: left;*/
+/*background-color: red;
+*/}
 
 .logo-txt-home-mld {
   color: #009933;
@@ -173,10 +204,11 @@ a.nav-pages:hover {
   margin-bottom: 2em;
 }
 
+
+
 .nav-float-pages {
   float: right;
   padding-top: 2em;
-
 }
 
 .panel-home {
