@@ -24,21 +24,14 @@ ul {
   list-style-position: inside;
 }
 
-.ul-bold {
-  font-family: 'Asul', serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #009933;
-}
-
-.li-normal {
+li {
   font-family: 'Open Sans', sans-serif;
   font-size: initial;
-  font-weight:700;
+  font-weight:400;
   text-transform: none;
   color: #333333;
 }
+
 /*link selectors */
 a.logo-txt-pages {
   font-family: 'Asul', serif;
@@ -72,11 +65,11 @@ a.nav-book {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: .02em;
   color: #ff6633;
-  display: inline-block;
-  justify-content: center;
+/*  display: inline-block;
+  justify-content: center;*/
 }
 
 a.nav-book:hover {
@@ -131,6 +124,10 @@ a.nav-pages:hover {
   background-position: left top; 
 }
 
+.center {
+  text-align: center;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -138,32 +135,51 @@ a.nav-pages:hover {
 }
 
 .container-pages {
-  width: 100%;
-  display: flex;
-  justify-content: left;
+  padding: 1em 4em;
 }
 
 .copyright {
   font-family: serif;
-  font-size: .8em
+  font-size: .8em;
+  text-align:center;
+  padding: 3em 0;
+}
+
+/*.header-pages {
+  font-weight: 600;
+  text-align: left;
+  text-transform: initial;
+  color: #333333;
+  /*margin: 1em 0 0 4em;
+}*/
+
+.header-home {
+  font-weight: 600;  
+  color: #333333;
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+  width: 100%;
+/*  background-color: red;
+*/  margin: 0 auto;
+/*  margin: 0 0 0 4em;*/
 }
 
 .header-pages {
   font-family: 'Asul', serif;
   font-size: 1.5em;
-  text-align: center;
+  font-weight: 700;
   text-transform: uppercase;
   color: #009933;
   margin: 1em 0 0 0;
 }
 
 .header-sub-pages {
-  font-size: 1.1em;
-  font-weight: 700;
+  font-weight: 600;  
   color: #333333;
-  text-align: center;
-  text-transform: uppercase;
-  /*margin: 0 0 1em 0;*/
+  text-align: left;
+  text-transform: capitalize;
+/*  margin: 0 0 0 4em;*/
 }
 
 .img-home {
@@ -173,9 +189,17 @@ a.nav-pages:hover {
   	margin: 0 auto;
 }
 
+.img-treatment {
+    /*float: left;*/
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .list-pages {
-width: 60%;
-margin: 0 auto;
+  width: 52%;
+  margin: 0 auto;
 /*text-align: left;*/
 /*background-color: red;
 */}
@@ -210,10 +234,15 @@ margin: 0 auto;
   font-size: 1.5em;
 }
 
-.logo-float-pages{
+.logo-float-pages {
   float: left;
   padding-top: 1em;
   margin-bottom: 2em;
+}
+
+.logo-txt-sub-pages {
+    text-align: left;
+    font-size: 1.2em;
 }
 
 .nav-float-pages {
@@ -225,13 +254,13 @@ margin: 0 auto;
   background-color: white;
   position: relative;
   margin:  0 auto;
-  text-align: justify;
+ /* text-align: justify;*/
   width: 45%;
   height: auto;
   padding: 1em;
 }
 
-.panel-home-cr {
+/*.panel-home-cr {
   background-color: white;
   position: relative;
   margin:  0 auto;
@@ -240,14 +269,18 @@ margin: 0 auto;
   height: auto;
   padding-top: 5em;
   padding-bottom: 2em;
-}
+}*/
 
 .site {
   background-color: green;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-pages {
-  margin: 0 4em 2em 4em;
+  margin: 0 0 1em 0;
 }
 
 .wrapper {
@@ -301,10 +334,6 @@ padding: 0 1em;
     font-size: 1.2em;
 }
 
-#logo-txt-sub-pages {
-    text-align: left;
-    font-size: 1.2em;
-}
 
 /*psuedo elements*/
 .clearfix:after {
