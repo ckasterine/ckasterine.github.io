@@ -6,7 +6,22 @@
   box-sizing:border-box;
  }
 
+/*tests*/
+/*.bk-test_a {
+  background-color: yellow;
+}
+
+.bk-test_b {
+  background-color: blue;
+}
+
+.bk-test_c {
+  background-color: orange;
+}*/
+
  /*element selectors*/ 
+}
+}
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;  font-size: 100%;
@@ -63,13 +78,16 @@ a.logo-txt-pages-mld:hover  {
 
 a.nav-book {
   font-family: 'Open Sans', sans-serif;
+/*  font-size: 1em;
+*/  font-weight: 400;
+  font-style: italic;
+  display: block;
   text-decoration: none;
-  font-size: 1em;
-  font-weight: 600;
   letter-spacing: .02em;
+/*  border: solid 2px #333333;
+*/  /*padding: 1em;*/
+  text-align: center;
   color: #ff6633;
-/*  display: inline-block;
-  justify-content: center;*/
 }
 
 a.nav-book:hover {
@@ -79,7 +97,7 @@ a.nav-book:hover {
 a.nav-main {
   font-family: 'Open Sans', sans-serif;
   float: left;
-  font-size: 1em;
+  /*font-size: 1em;*/
   font-weight: 400;
   font-style: italic;
   letter-spacing: .02em;
@@ -145,14 +163,6 @@ a.nav-pages:hover {
   padding: 3em 0;
 }
 
-/*.header-pages {
-  font-weight: 600;
-  text-align: left;
-  text-transform: initial;
-  color: #333333;
-  /*margin: 1em 0 0 4em;
-}*/
-
 .header-home {
   font-weight: 600;  
   color: #333333;
@@ -160,9 +170,7 @@ a.nav-pages:hover {
   text-transform: capitalize;
   display: block;
   width: 100%;
-/*  background-color: red;
-*/  margin: 0 auto;
-/*  margin: 0 0 0 4em;*/
+  margin: 0 auto;
 }
 
 .header-pages {
@@ -179,7 +187,6 @@ a.nav-pages:hover {
   color: #333333;
   text-align: left;
   text-transform: capitalize;
-/*  margin: 0 0 0 4em;*/
 }
 
 .img-home {
@@ -190,7 +197,6 @@ a.nav-pages:hover {
 }
 
 .img-treatment {
-    /*float: left;*/
     width: 100%;
     height: auto;
     display: block;
@@ -200,9 +206,7 @@ a.nav-pages:hover {
 .list-pages {
   width: 52%;
   margin: 0 auto;
-/*text-align: left;*/
-/*background-color: red;
-*/}
+}
 
 .logo-txt-home-mld {
   color: #009933;
@@ -222,9 +226,6 @@ a.nav-pages:hover {
   float: right;
   width: 100%;
   height: auto;
- /* display: block;*/
-  /*padding: .7em;
-  margin: 0 auto;*/
 }
 
 .logo-txt-home {
@@ -251,28 +252,32 @@ a.nav-pages:hover {
 }
 
 .panel-home {
-  background-color: white;
+  background-color: #ffffff;
   position: relative;
   margin:  0 auto;
- /* text-align: justify;*/
   width: 45%;
   height: auto;
   padding: 1em;
 }
 
-/*.panel-home-cr {
-  background-color: white;
-  position: relative;
-  margin:  0 auto;
-  text-align: justify;
-  width: 45%;
-  height: auto;
-  padding-top: 5em;
-  padding-bottom: 2em;
-}*/
+.no-padding-home {
+  padding: 0;
+}
 
 .site {
   background-color: green;
+}
+
+.tag-home {
+  font-family: 'Asul', serif;
+  font-size: 1.2em;
+  font-weight: 400;  
+  color: #333333;
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .text-center {
