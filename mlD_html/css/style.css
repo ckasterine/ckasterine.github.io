@@ -196,6 +196,23 @@ a.nav-pages:hover {
   	margin: 0 auto;
 }
 
+.img-info {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0 3em 2em;
+}
+
+.img-info-social {
+    width: 25%;
+    float: left;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0 3em 2em;
+}
+
 .img-treatment {
     width: 100%;
     height: auto;
