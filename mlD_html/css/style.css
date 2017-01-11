@@ -186,7 +186,7 @@ a.nav-pages:hover {
   font-weight: 600;  
   color: #333333;
   text-align: left;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .img-home {
