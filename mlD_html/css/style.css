@@ -78,14 +78,11 @@ a.logo-txt-pages-mld:hover  {
 
 a.nav-book {
   font-family: 'Open Sans', sans-serif;
-/*  font-size: 1em;
-*/  font-weight: 400;
+  font-weight: 400;
   font-style: italic;
   display: block;
   text-decoration: none;
   letter-spacing: .02em;
-/*  border: solid 2px #333333;
-*/  /*padding: 1em;*/
   text-align: center;
   color: #ff6633;
 }
@@ -97,7 +94,6 @@ a.nav-book:hover {
 a.nav-main {
   font-family: 'Open Sans', sans-serif;
   float: left;
-  /*font-size: 1em;*/
   font-weight: 400;
   font-style: italic;
   letter-spacing: .02em;
@@ -186,7 +182,6 @@ a.nav-pages:hover {
   font-weight: 600;  
   color: #333333;
   text-align: left;
-  /*text-transform: capitalize;*/
 }
 
 .img-home {
@@ -232,7 +227,7 @@ a.nav-pages:hover {
 }
 
 .logo-img-home {
-  width: 40%;
+  width: 60%;
   height: auto;
   display: block;
   padding: .7em;
@@ -366,3 +361,47 @@ padding: 0 1em;
   clear: both;
   height: 0;
 }
+
+/*tablets and phones*/
+/*nav, image, video breakpoint*/
+@media only screen and (max-width: 735px) 
+{ 
+  .panel-home {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 640px) 
+{ 
+  .panel-home {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+
+  a.nav-main {
+    float:none;
+    display: block;
+    border-top:#ffffff;
+    border-bottom: #ffffff;
+    padding:1em 4em;
+    background: #ffffff;
+    text-align:center;
+}
+
+  .img-home {
+    width: 60%;
+}
+
+  .logo-img-home {
+    width: 40%;
+}
+
+  .panel-home {
+    width: 100%;
+  }
+
+
+
+
