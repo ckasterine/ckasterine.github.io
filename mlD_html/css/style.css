@@ -379,10 +379,10 @@ padding: 0 1em;
 }
 
 @media only screen and (max-width: 585px) {
-
   a.nav-main {
     float:none;
     display: block;
+    /*position: fixed;*/
     border-top:#ffffff;
     border-bottom: #ffffff;
     padding:1em 4em;
@@ -390,18 +390,32 @@ padding: 0 1em;
     text-align:center;
 }
 
+  .logo-txt-home {
+    text-align: left;
+}
+
   .img-home {
-    width: 60%;
+    width: 40%;
 }
 
   .logo-img-home {
-    width: 40%;
+    width: 25%;
+    float: left;
+    padding: 0 1em;
 }
 
   .panel-home {
     width: 100%;
   }
 
-
-
+#logo-txt-sub {
+  font-size: 1em;
+  text-align: left;
+  }
+}
+/*
+@media only screen and (max-width: 515px) {
+.logo-img-home {
+    width: 20%;
+}*/
 
