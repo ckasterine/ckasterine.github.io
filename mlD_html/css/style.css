@@ -21,7 +21,6 @@
 
  /*element selectors*/ 
 }
-}
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;  font-size: 100%;
@@ -385,7 +384,7 @@ padding: 0 1em;
     /*position: fixed;*/
     border-top:#ffffff;
     border-bottom: #ffffff;
-    padding:1em 4em;
+    padding:.5em 4em;
     background: #ffffff;
     text-align:center;
 }
