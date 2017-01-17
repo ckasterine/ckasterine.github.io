@@ -413,9 +413,14 @@ padding: 0 1em;
   text-align: left;
   }
 }
-/*
-@media only screen and (max-width: 515px) {
-.logo-img-home {
-    width: 20%;
-}*/
 
+@media only screen and (max-width: 530px) {
+  .logo-img-home {
+    width: 30%;
+  }
+
+@media only screen and (max-width: 400px) {
+  .logo-img-home {
+    width: 35%;
+  }
+}
