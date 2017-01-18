@@ -400,6 +400,9 @@ padding: 0 1em;
 /*  .logo-txt-home {
     text-align: left;
 }*/
+  .copyright {
+    padding: 1em 0;
+  }
 
   .img-home {
     display: none; 
@@ -424,13 +427,4 @@ padding: 0 1em;
     font-size: 1em;
   }
 }
-/*@media only screen and (max-width: 530px) {
-  .logo-img-home {
-    width: 30%;
-  }*/
 
-/*@media only screen and (max-width: 400px) {
-  .logo-img-home {
-    display: none; 
-  }
-}*/
