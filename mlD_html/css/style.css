@@ -190,6 +190,14 @@ a.nav-pages:hover {
   	margin: 0 auto;
 }
 
+.img-home-mob {
+    width: 50%;
+    height: auto;
+    display: none;
+    margin: 0 auto;
+}
+
+}
 .img-info {
     width: 100%;
     height: auto;
@@ -394,7 +402,11 @@ padding: 0 1em;
 }*/
 
   .img-home {
-    width: 60%;
+    display: none; 
+  }
+
+  .img-home-mob {
+    display: block; 
   }
 
   .logo-img-home {
