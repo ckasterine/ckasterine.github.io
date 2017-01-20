@@ -15,7 +15,7 @@ body {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   color: #333333;
 }
 
@@ -106,7 +106,7 @@ a.nav-pages {
   padding: 1em;
   border-top: 1px solid #6699cc;
   border-bottom: 1px solid #6699cc;
-  background-color: white;
+  background-color: #ffffff;
   float: left;
 }
 
@@ -242,13 +242,14 @@ a.nav-pages:hover {
 
 .logo-float-pages {
   float: left;
-  padding-top: 1em;
-  margin-bottom: 2em;
+  padding: 1em 0 0 1em;
+  /*margin-bottom: 2em;*/
 }
 
 .logo-txt-sub-pages {
     text-align: left;
     font-size: 1.2em;
+    padding: 0 0 1em;
 }
 
 .nav-float-pages {
@@ -373,16 +374,12 @@ padding: 0 1em;
     padding: .7em;
   }
 
- /* .container-pages {
-  padding: 1em 9em
-  }*/
-
-  /*.header-pages {
+  .header-pages {
     font-size: 1.3em;
-  }*/
+  }
 
   .list-pages {
-    width:70%;
+    width: 80%;
   }
 
   .logo-pages {
@@ -401,35 +398,31 @@ padding: 0 1em;
  }
 }
 
-@media only screen and (max-width: 870px) 
+@media only screen and (max-width: 905px) 
 {
   .logo-pages {
     display: none;
   }
 }
 
-@media only screen and (max-width: 750px) 
+@media only screen and (max-width: 754px) 
 { 
-  .panel-home {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 722px) 
-{ 
-  .panel-home {
-    width: 60%;
-  }
-
+  
   a.nav-pages {
     padding: 0 2em 2em 0;
     border-top: 0px;
     border-bottom: 0px;
   }
 
-  .nav-float-pages {
+  a.nav-pages:hover {
+  color: #6699cc;
+  background-color: #ffffff;
+  text-decoration: underline;
+}
+
+ .nav-float-pages {
     float: left;
-    padding-top: 0;
+    padding: 0 0 0 1em;
   }
 
   .mld-player-750 {
@@ -441,6 +434,11 @@ padding: 0 1em;
     display: block;
     visibility: visible;
   }
+
+  .panel-home {
+    width: 60%;
+  }
+
 }
 
 @media only screen and (max-width: 600px)
@@ -456,8 +454,16 @@ padding: 0 1em;
     text-align:center;
   }
 
+  .list-pages{
+    width: 90%;
+  }
+  
   .logo-float-pages {
     margin-bottom: 1em;
+  }
+
+  .logo-txt-sub-pages {
+  padding: 0;
   }
 
   .copyright {
@@ -476,7 +482,7 @@ padding: 0 1em;
     display: none; 
   }
 
-  .mld-player-500 {
+/*  .mld-player-500 {
     display: none;
     visibility: hidden;
   }
@@ -485,7 +491,7 @@ padding: 0 1em;
     display: block;
     visibility: visible;
   }
-
+*/
   .panel-home {
     width: 100%;
   }
