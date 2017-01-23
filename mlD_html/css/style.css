@@ -17,6 +17,22 @@ nav {
   /*padding-top: 2em;*/
 }
 
+nav a{
+  /*margin:20px;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .02em;
+  text-decoration: none;
+  color: #ff6633;
+  padding: 1em;
+  border-top: 1px solid #6699cc;
+  border-bottom: 1px solid #6699cc;
+  background-color: #ffffff;
+  float: left;
+}
+
 nav-home {
   float: right;
 }
@@ -32,7 +48,6 @@ ul {
   list-style-type: disc;
   list-style-position: inside;
 }
-
 
 label {
   display: none;
@@ -135,6 +150,13 @@ a.nav-pages:hover {
 	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
 	background-size: cover;
   background-position: left top; 
+}
+
+.bar{
+  width:25px;
+  height:4px;
+  margin:2px;
+  background-color:red;
 }
 
 .center {
@@ -466,19 +488,27 @@ padding: 0 1em;
   }
 
   label {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    font-family: sans-serif;
-    font-weight: 800;
-    color: #333;
+  display: block;
+  width: 87.9%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: 800;
+  /*padding: 1em;*/
+  color: #333;
   }
 
   nav {
     display: none;
   }
-
+  nav a{
+  padding: .5em;
+  border-top: 0;
+  border-bottom: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
   a.logo-txt-pages-mld {
     font-size: 1.5em;
   }
@@ -530,7 +560,7 @@ padding: 0 1em;
   
   .logo-float-pages {
     float: none;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
     text-align: center;
   }
 
@@ -565,10 +595,10 @@ padding: 0 1em;
   }
 
   #toggle:checked + nav {
-    width: 100%;
+      width: 100%;
       display: block;
       clear: both;
-      float: none;
+      text-align: center;
   }
 }
 
