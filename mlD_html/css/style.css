@@ -608,6 +608,7 @@ nav a {
   .mld-player-400 {
     display: block;
     visibility: visible;
+    text-align: center;
   }
 
   .panel-home {
@@ -627,6 +628,8 @@ nav a {
       display: block;
       clear: both;
       text-align: center;
+      border: solid 1px grey;
+      margin-bottom: 1em;
   }
 }
 
