@@ -24,6 +24,10 @@ ul {
   list-style-position: inside;
 }
 
+label {
+  display: none;
+}
+
 li {
   font-family: 'Open Sans', sans-serif;
   font-size: initial;
@@ -350,13 +354,17 @@ padding: 0 1em;
 }
 
 /*ids*/
+#header-pages-lc {
+    text-transform: none;
+}
+
 #logo-txt-sub {
     text-align: center;
     font-size: 1.2em;
 }
 
-#header-pages-lc {
-    text-transform: none;
+#toggle {
+  display: none;
 }
 
 /*psuedo elements*/
@@ -449,20 +457,31 @@ padding: 0 1em;
     list-style: none;
   }
 
-  a.nav-main {
-    float:none;
+  label {
     display: block;
+    width: 87.9%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 1em;
+    color: #333;
+  }
+
+/*  a.nav-main {
+    float:none;
+    display: block;*/
     /*position: fixed;*/
-    border-top:#ffffff;
+/*    border-top:#ffffff;
     border-bottom: #ffffff;
     padding:.5em 4em;
     background: #ffffff;
     text-align:center;
-  }
+  }*/
 
-  a.nav-pages {
+/*  a.nav-pages {
     padding: 0 .8em 1em 0;
-  }
+  }*/
 
   .container-pages {
     padding: .5em 0;
@@ -494,7 +513,7 @@ padding: 0 1em;
   }
 
   .logo-txt-sub-pages {
-  padding: 0;
+    padding: 0;
   }
 
   .logo-img-home {
@@ -522,5 +541,12 @@ padding: 0 1em;
   #logo-txt-sub {
     font-size: 1em;
   }
+
+    #toggle:checked + nav-float-pages {
+      display: block;
+      clear:both;
+      float: none;
+  }
+}
 }
 
