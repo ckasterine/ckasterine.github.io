@@ -9,12 +9,13 @@
 }
 body {
   color: #333;
-  font-family: 'Open Sans', sans-serif;  font-size: 100%;
+  font-family: 'Open Sans', "Helvetica", "Arial", sans-serif; 
+  font-size: 100%;
 }
 
 nav {
   float: right;
-  /*padding-top: 2em;*/
+  padding: 0 0 0 1em;
 }
 
 nav a{
@@ -43,7 +44,7 @@ nav-home {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', "Helvetica", "Arial", sans-serif;
   font-size: 1em;
   line-height: 1.4em;
   color: #333333;
@@ -165,7 +166,6 @@ a.nav-pages:hover {
   background-size: cover;
   background-position: left top; 
 }
-
 
 .bar{
   width:25px;
@@ -407,6 +407,16 @@ padding: 0 1em;
   width: 343px;
   height: 193px;
 }
+
+.mld-player-288 {
+  display: none;
+  visibility: hidden;
+}
+
+.mld-player-288 iframe{
+  width: 288px;
+  height: 162px;
+}
 /*ids*/
 #header-pages-lc {
     text-transform: none;
@@ -478,6 +488,10 @@ padding: 0 1em;
 
 @media only screen and (max-width: 754px) 
 { 
+nav {
+    width: 100%;
+}
+
 nav a {
     padding: 0 2em 2em 0;
     border-top: 0px;
@@ -553,9 +567,6 @@ nav a {
     display: block;
     /*text-align: center;*/
 }
-  a.logo-txt-pages-mld {
-    font-size: 1.5em;
-  }
 
   .logo-txt-sub-pages {
     font-size: 1em;
@@ -618,7 +629,7 @@ nav a {
     display: none; 
   }
 
-  .mld-player-500 {
+/*  .mld-player-500 {
     display: none;
     visibility: hidden;
   }
@@ -627,7 +638,7 @@ nav a {
     display: block;
     visibility: visible;
     text-align: center;
-  }
+  }*/
 
   .panel-home {
     width: 100%;
@@ -648,6 +659,41 @@ nav a {
       text-align: center;
       border: solid 1px grey;
       margin-bottom: 1em;
+  }
+}
+/*@media only screen and (max-width: 400px)
+{*/
+/*  .mld-player-500 {
+    display: none;
+    visibility: hidden;
+  }
+
+  .mld-player-343 {
+    display: block;
+    visibility: visible;
+    text-align: center;
+  }
+*/
+/*  a.logo-txt-pages-mld {
+    font-size: 1.5em;
+  }
+}
+*/
+/*}*/
+@media only screen and (max-width: 400px)
+{
+  .mld-player-500 {
+    display: none;
+    visibility: hidden;
+  }
+
+  .mld-player-288 {
+    display: block;
+    visibility: visible;
+    text-align: center;
+  }
+   a.logo-txt-pages-mld {
+    font-size: 1.5em;
   }
 }
 
