@@ -12,6 +12,15 @@ body {
   font-family: 'Open Sans', sans-serif;  font-size: 100%;
 }
 
+nav {
+  float: right;
+  /*padding-top: 2em;*/
+}
+
+nav-home {
+  float: right;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
@@ -23,6 +32,7 @@ ul {
   list-style-type: disc;
   list-style-position: inside;
 }
+
 
 label {
   display: none;
@@ -50,7 +60,7 @@ a.logo-txt-pages {
 
 a.logo-txt-pages:hover {
 color: #333333;
-    }
+}
 
 a.logo-txt-pages-mld {
   font-family: 'Asul', serif;
@@ -60,7 +70,7 @@ a.logo-txt-pages-mld {
   text-decoration: none;
 }
 
-a.logo-txt-pages-mld:hover  {
+a.logo-txt-pages-mld:hover {
     color: #009933;
     text-decoration: none;
 }
@@ -187,7 +197,6 @@ a.nav-pages:hover {
     margin: 0 auto;
 }
 
-}
 .img-info {
     width: 100%;
     height: auto;
@@ -247,7 +256,6 @@ a.nav-pages:hover {
 .logo-float-pages {
   float: left;
   padding: 1em 0 0 1em;
-  /*margin-bottom: 2em;*/
 }
 
 .logo-txt-sub-pages {
@@ -364,7 +372,7 @@ padding: 0 1em;
 }
 
 #toggle {
-  display: none;
+  display:block;
 }
 
 /*psuedo elements*/
@@ -459,29 +467,41 @@ padding: 0 1em;
 
   label {
     display: block;
-    width: 87.9%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     font-family: sans-serif;
     font-weight: 800;
-    padding: 1em;
     color: #333;
   }
 
-/*  a.nav-main {
-    float:none;
-    display: block;*/
+  nav {
+    display: none;
+  }
+
+  a.logo-txt-pages-mld {
+    font-size: 1.5em;
+  }
+
+  .logo-txt-sub-pages {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  a.nav-main {
+    float: none;
+    display: block;
     /*position: fixed;*/
-/*    border-top:#ffffff;
+    border-top: #ffffff;
     border-bottom: #ffffff;
     padding:.5em 4em;
     background: #ffffff;
     text-align:center;
-  }*/
+  }
 
-/*  a.nav-pages {
+  a.nav-pages {
     padding: 0 .8em 1em 0;
-  }*/
+  }
 
   .container-pages {
     padding: .5em 0;
@@ -509,7 +529,9 @@ padding: 0 1em;
   }
   
   .logo-float-pages {
+    float: none;
     margin-bottom: 1em;
+    text-align: center;
   }
 
   .logo-txt-sub-pages {
@@ -542,11 +564,12 @@ padding: 0 1em;
     font-size: 1em;
   }
 
-    #toggle:checked + nav-float-pages {
+  #toggle:checked + nav {
+    width: 100%;
       display: block;
-      clear:both;
+      clear: both;
       float: none;
   }
 }
-}
+
 
