@@ -33,7 +33,6 @@ nav a{
   float: left;
 }
 
-
 nav a:hover {
   color: #ffffff;
   background-color: #6699cc;
@@ -159,6 +158,14 @@ a.nav-pages:hover {
 	background-size: cover;
   background-position: left top; 
 }
+
+.background-image-pages {
+  margin: 0;
+  background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
+  background-size: cover;
+  background-position: left top; 
+}
+
 
 .bar{
   width:25px;
@@ -343,7 +350,7 @@ a.nav-pages:hover {
 }
 
 .bkground-pages {
-background-color: white; 
+background-color: #ffffff; 
 padding: 0 1em;
 }
 
@@ -391,6 +398,15 @@ padding: 0 1em;
   height: 225px;
 }
 
+.mld-player-343 {
+  display: none;
+  visibility: hidden;
+}
+
+.mld-player-343 iframe{
+  width: 343px;
+  height: 193px;
+}
 /*ids*/
 #header-pages-lc {
     text-transform: none;
@@ -554,13 +570,15 @@ nav a {
     border-bottom: #ffffff;
     padding:.5em 4em;
     background: #ffffff;
-/*    text-align:center;
-*/  }
+  }
 
   a.nav-pages {
     padding: 0 .8em 1em 0;
   }
 
+  .background-image-pages {
+    background: transparent;
+}
   .container-pages {
     padding: .5em 0;
   }
@@ -570,7 +588,7 @@ nav a {
   }
 
   .header-pages {
-    font-size: 1.1em;
+ /*   font-size: 1.1em;*/
     text-align: left;
   }
 
