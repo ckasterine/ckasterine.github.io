@@ -13,6 +13,18 @@ body {
   font-size: 100%;
 }
 
+label {
+  display: none;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: initial;
+  font-weight:300;
+  text-transform: none;
+  color: #333333;
+}
+
 nav {
   float: right;
   padding: 0 0 0 1em;
@@ -55,19 +67,20 @@ ul {
   list-style-position: inside;
 }
 
-label {
-  display: none;
-}
-
-li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: initial;
-  font-weight:300;
-  text-transform: none;
-  color: #333333;
-}
-
 /*link selectors */
+a.logo-txt-pages-mld {
+  font-family: 'Asul', serif;
+  color: #009933;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a.logo-txt-pages-mld:hover {
+    color: #009933;
+    text-decoration: none;
+}
+
 a.logo-txt-pages {
   font-family: 'Asul', serif;
   color: #333333;
@@ -81,19 +94,6 @@ a.logo-txt-pages {
 
 a.logo-txt-pages:hover {
 color: #333333;
-}
-
-a.logo-txt-pages-mld {
-  font-family: 'Asul', serif;
-  color: #009933;
-  font-size: 2em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-a.logo-txt-pages-mld:hover {
-    color: #009933;
-    text-decoration: none;
 }
 
 a.nav-book {
@@ -130,7 +130,7 @@ a.nav-main:hover {
   background-color: #6699cc;
 }
 
-/*delete*/
+/*delete after updating all pges*/
 a.nav-pages {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
@@ -145,12 +145,13 @@ a.nav-pages {
   background-color: #ffffff;
   float: left;
 }
-/*end delete*/
 
 a.nav-pages:hover {
   color: #ffffff;
   background-color: #6699cc;
 }
+
+/*end delete*/
 
 /*classes*/
 .background-image {
@@ -167,7 +168,13 @@ a.nav-pages:hover {
   background-position: left top; 
 }
 
-.bar{
+.background-clr-pages {
+  background-color: #ffffff; 
+  padding: 0 1em;
+}
+
+
+.bar {
   width:25px;
   height:4px;
   margin:2px;
@@ -263,10 +270,9 @@ a.nav-pages:hover {
   margin: 0 auto;
 }
 
-.logo-txt-home-mld {
-  color: #009933;
-  font-size: 2.3em;
-  text-transform: uppercase;
+.logo-float-pages {
+  float: left;
+  padding: 1em 0 0 1em;
 }
 
 .logo-img-home {
@@ -291,68 +297,16 @@ a.nav-pages:hover {
   font-size: 1.5em;
 }
 
-.logo-float-pages {
-  float: left;
-  padding: 1em 0 0 1em;
+.logo-txt-home-mld {
+  color: #009933;
+  font-size: 2.3em;
+  text-transform: uppercase;
 }
 
 .logo-txt-sub-pages {
   text-align: left;
   font-size: 1.2em;
   padding: 0 0 1em;
-}
-
-.nav-float-pages {
-  float: right;
-  padding-top: 2em;
-}
-
-.panel-home {
-  background-color: #ffffff;
-  position: relative;
-  margin:  0 auto;
-  width: 45%;
-  height: auto;
-  padding: 1em;
-}
-
-.no-padding-home {
-  padding: 0;
-}
-
-.site {
-  background-color: green;
-}
-
-.tag-home {
-  font-family: 'Asul', serif;
-  font-size: 1.2em;
-  font-weight: 400;  
-  color: #333333;
-  text-align: center;
-  text-transform: capitalize;
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-pages {
-  margin: 0 0 1em 0;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-.bkground-pages {
-  background-color: #ffffff; 
-  padding: 0 1em;
 }
 
 .mld-player {
@@ -419,6 +373,54 @@ a.nav-pages:hover {
   height: 162px;
 }
 
+.nav-float-pages {
+  float: right;
+  padding-top: 2em;
+}
+
+.no-padding-home {
+  padding: 0;
+}
+
+.panel-home {
+  background-color: #ffffff;
+  position: relative;
+  margin:  0 auto;
+  width: 45%;
+  height: auto;
+  padding: 1em;
+}
+
+.site {
+  background-color: green;
+}
+
+.tag-home {
+  font-family: 'Asul', serif;
+  font-size: 1.2em;
+  font-weight: 400;  
+  color: #333333;
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-pages {
+  margin: 0 0 1em 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 /*ids*/
 #header-pages-lc {
     text-transform: none;
@@ -467,7 +469,7 @@ a.nav-pages:hover {
   }
 
   .list-pages {
-    width: 80%;
+    width: 84%;
   }
 
   .logo-pages {
@@ -495,15 +497,15 @@ a.nav-pages:hover {
 
 @media only screen and (max-width: 770px) 
 { 
-  nav {
+/*  nav {
     width: 100%;
-  }
+  }*/
 
-  nav a {
+/*  nav a {
     padding: 0 2em 2em 0;
     border-top: 0px;
     border-bottom: 0px;
-  }
+  }*/
 
   nav a:hover {
     color: #6699cc;
@@ -520,7 +522,7 @@ a.nav-pages:hover {
 
   }
 
-/*delete*/
+/*delete after updatig pages*/
   a.nav-pages {
     padding: 0 2em 2em 0;
     border-top: 0px;
@@ -532,35 +534,38 @@ a.nav-pages:hover {
     background-color: #ffffff;
     text-decoration: underline;
   }
-
 /* end delete*/
-  
 
   nav {
     display: none;
   }
 
   nav a {
+    width: 100%;
+    display: block;
     padding: .4em;
     border-top: 0;
     border-bottom: 0;
-    width: 100%;
-    display: block;
   }
   
   label {
     display: block;
-    width: 87.9%;
+    width: 87%;
     text-align: center;
     margin: 0 auto 1em;
     font-family: sans-serif;
     font-weight: 800;
-    color: #333;
+    color: #333333;
   }
 
- .nav-float-pages {
-    float: left;
-    padding: 0 0 0 1em;
+ .logo-float-pages {
+    float: none;
+    text-align: center;
+  }
+
+  .logo-txt-sub-pages {
+    font-size: .9em;
+    text-align: center;
   }
 
   .mld-player-750 {
@@ -573,21 +578,15 @@ a.nav-pages:hover {
     visibility: visible;
   }
 
+  .nav-float-pages {
+    float: left;
+    padding: 0 0 0 1em;
+  }
+
   /*.panel-home {
     width: 60%;
   }*/
  
- .logo-float-pages {
-    float: none;
-    text-align: center;
-  }
-
-  .logo-txt-sub-pages {
-    font-size: .9em;
-    text-align: center;
-  }
-
-
   #logo-txt-sub {
     font-size: 1em;
   }
@@ -685,12 +684,12 @@ a.nav-pages:hover {
     text-align: center;
   }
 
-  .logo-txt-sub-pages {
-    padding: 0;
-  }
-
   .logo-img-home {
     display: none; 
+  }
+
+  .logo-txt-sub-pages {
+    padding: 0;
   }
 
 /*  .mld-player-500 {
@@ -759,13 +758,13 @@ a.nav-pages:hover {
     text-align: center;
   }
 
-   a.logo-txt-pages-mld {
+  a.logo-txt-pages-mld {
     font-size: 1.5em;
   }
 
   #list-dates {
   display: none;
-}
+  }
 }
 
 
