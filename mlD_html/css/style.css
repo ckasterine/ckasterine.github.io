@@ -294,12 +294,13 @@ a.nav-pages:hover {
   font-family: 'Asul', serif;
   text-align: center;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 2.1em;
+  line-height: normal;
 }
 
 .logo-txt-home-mld {
   color: #009933;
-  font-size: 2.3em;
+  font-size: 2.1em;
   text-transform: uppercase;
 }
 
@@ -373,10 +374,12 @@ a.nav-pages:hover {
   height: 162px;
 }
 
-.nav-float-pages {
+/*delete after pages updated
+*/.nav-float-pages {
   float: right;
   padding-top: 2em;
 }
+/*end delete*/
 
 .no-padding-home {
   padding: 0;
@@ -495,6 +498,29 @@ a.nav-pages:hover {
   }
 }
 
+
+@media only screen and (max-width: 902px) 
+{
+/*  .logo-txt-home {
+    font-size: 1.9em;
+  }*/
+
+  .logo-txt-home-mld {
+    font-size: 2.1em;
+  }
+
+  .panel-home {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 788px) 
+{ 
+  .panel-home {
+    width: 65%;
+  }
+}
+
 @media only screen and (max-width: 770px) 
 { 
 /*  nav {
@@ -519,10 +545,9 @@ a.nav-pages:hover {
 
   a.logo-txt-pages-mld {
     font-size: 1.5em;
-
   }
 
-/*delete after updatig pages*/
+/*delete after updating pages*/
   a.nav-pages {
     padding: 0 2em 2em 0;
     border-top: 0px;
@@ -578,18 +603,22 @@ a.nav-pages:hover {
     visibility: visible;
   }
 
+/*delete after pages updated
+*/
   .nav-float-pages {
     float: left;
     padding: 0 0 0 1em;
   }
+/*end delete
+*/  
 
-  /*.panel-home {
-    width: 60%;
+/*.panel-home {
+    width: 55%;
   }*/
  
-  #logo-txt-sub {
+/*  #logo-txt-sub {
     font-size: 1em;
-  }
+  }*/
 
   #toggle:checked + nav {
     width: 100%;
@@ -603,6 +632,12 @@ a.nav-pages:hover {
   }
 }
 
+@media only screen and (max-width: 605px)
+{
+  .panel-home {
+    width: 68%;
+  }
+}
 @media only screen and (max-width: 600px)
 {
   li {
@@ -642,7 +677,7 @@ a.nav-pages:hover {
     /*position: fixed;*/
     border-top: #ffffff;
     border-bottom: #ffffff;
-    padding:.5em 4em;
+    padding:.5em 2em;
     background: #ffffff;
   }
 
