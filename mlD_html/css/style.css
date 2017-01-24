@@ -476,7 +476,7 @@ a.nav-pages:hover {
   }
 
   .logo-pages {
-    float:none;
+    float: none;
     width: 75%;
   }
 
@@ -720,7 +720,7 @@ a.nav-pages:hover {
   }
 
   .logo-img-home {
-    width: 40%; 
+    display: none;
   }
 
   .logo-txt-sub-pages {
