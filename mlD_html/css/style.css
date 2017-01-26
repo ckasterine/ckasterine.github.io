@@ -749,7 +749,7 @@ a.site:hover {
 
   .panel-home {
     width: 100%;
-    padding: .5em;
+    padding: .2em;
   }
 
   .panel-home img {
@@ -812,6 +812,7 @@ a.site:hover {
 
   #logo-txt-sub {
     font-size: 1em;
+    margin: 0 0 1em;
   }
 
   #list-dates {
