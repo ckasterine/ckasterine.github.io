@@ -187,14 +187,14 @@ a.nav-pages:hover {
 
 .background-image {
 	margin: 0;
-	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
+	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpg) no-repeat 0 fixed #99cc99;
 	background-size: cover;
   background-position: left top; 
 }
 
 .background-image-pages {
   margin: 0;
-  background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
+  background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpg) no-repeat 0 fixed #99cc99;
   background-size: cover;
   background-position: left top; 
 }
@@ -457,7 +457,9 @@ text-transform: uppercase;
 
 img.smaller {
   width:60%;
+  height: auto;
 }
+
 /*.site {
   background-color: green;
 }*/
@@ -732,6 +734,10 @@ img.smaller {
   a.nav-pages {
     padding: 0 .8em 1em 0;
   }
+
+  img.smaller {
+    display: none;
+}
 
   .background-image-pages {
     background: transparent;
