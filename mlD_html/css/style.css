@@ -276,7 +276,6 @@ text-transform: uppercase;
   display: block;
   padding: .7em;
   margin: 0 auto;*/
-}
 
 /*needles*/
 /*.pic-home-02 {
@@ -311,8 +310,8 @@ text-transform: uppercase;
 }*/
 
 .list-pages {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 4em;
 }
 
 .logo-float-pages {
@@ -534,12 +533,13 @@ img.smaller {
   /*end delete*/
 
   .header-pages {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
-  .list-pages {
+  /*.list-pages {
     width: 84%;
-  }
+    padding: 0;
+  }*/
 
   .logo-pages {
     float: none;
@@ -757,6 +757,7 @@ img.smaller {
 
   .list-pages{
     width: 100%;
+    padding: 0;
   }
   
   .logo-float-pages {
