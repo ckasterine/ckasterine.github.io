@@ -61,10 +61,6 @@ p {
   color: #333333;
 }
 
-a.info {
-text-decoration: none;
-}
-
 ul {
   list-style-type: disc;
   list-style-position: inside;
@@ -82,6 +78,10 @@ a.contact {
 
 a.contact:hover {
   text-decoration: underline;
+}
+
+a.info {
+text-decoration: none;
 }
 
 a.logo-txt-pages-mld {
@@ -146,8 +146,23 @@ a.nav-main:hover {
   background-color: #6699cc;
 }
 
+a.site {
+  color: #333333;
+  font-family: serif;
+  font-size: .8em;
+  text-align: center;
+  display: block;
+/*  padding: 3em 0;*/
+  text-decoration: none;
+}
+
+a.site:hover {
+  color: #666666;
+  text-decoration: underline
+}
+
 /*delete after updating all pges*/
-a.nav-pages {
+/*a.nav-pages {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
@@ -166,10 +181,10 @@ a.nav-pages:hover {
   color: #ffffff;
   background-color: #6699cc;
 }
-
+*/
 /*end delete*/
-
 /*classes*/
+
 .background-image {
 	margin: 0;
 	background: url(http://www.kasterine.com/cMk/mld_images/home_01.jpeg) no-repeat 0 fixed #99cc99;
@@ -188,7 +203,6 @@ a.nav-pages:hover {
   background-color: #ffffff; 
   padding: 0 1em;
 }
-
 
 .bar {
   width:25px;
@@ -225,22 +239,6 @@ text-transform: uppercase;
   font-size: .8em;
   text-align:center;
   padding: 2em 0 0 0;
-}
-
-
-a.site {
-  color: #333333;
-  font-family: serif;
-  font-size: .8em;
-  text-align: center;
-  display: block;
-/*  padding: 3em 0;*/
-  text-decoration: none;
-}
-
-a.site:hover {
-  color: #666666;
-  text-decoration: underline
 }
 
 .header-home {
@@ -457,6 +455,9 @@ a.site:hover {
   margin: 0 auto;
 }
 
+img.smaller {
+  width:60%;
+}
 /*.site {
   background-color: green;
 }*/
