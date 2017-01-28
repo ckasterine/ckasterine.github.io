@@ -623,7 +623,7 @@ img.smaller {
   }
 
 /*delete after updating pages*/
-  a.nav-pages {
+/*  a.nav-pages {
     padding: 0 2em 2em 0;
     border-top: 0px;
     border-bottom: 0px;
@@ -633,7 +633,7 @@ img.smaller {
     color: #6699cc;
     background-color: #ffffff;
     text-decoration: underline;
-  }
+  }*/
 /* end delete*/
 
   nav {
@@ -832,8 +832,12 @@ img.smaller {
   a.logo-txt-pages {
     font-size: 1.4em;
   }
+
   a.logo-txt-pages-mld {
     font-size: 1.3em;
+    letter-spacing: 0.0925em;
+    display: block;
+    padding: .25em 0 0 0;
   }
 
   #logo-txt-sub {
