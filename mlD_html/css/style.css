@@ -23,7 +23,7 @@ li {
   font-weight:300;
   line-height: 1.5em;
   padding-left: 2em;
-  text-indent: 2em;
+  text-indent: -1em;
   text-transform: none;
   color: #333333;
 }
@@ -72,21 +72,21 @@ table {
   line-height: 1.5em;
   color: #333333;
   border-collapse: collapse;
-  width: 90%;
+  width: 100%;
 }
 
-td, th {
-    width:10%;
-    /*border: 1px solid #dddddd;*/
-    text-align: left;
-    padding: .25em;
-}
+/*td, th {
+    /*width:10%;*/
+   /* border: 1px solid #dddddd;
+    text-align: left;*/
+/*    padding: .25em;
+}*/
 
 ul {
   list-style: disc;
-  /*padding-left: 2em;
-  text-indent: -2em;*/
-  list-style-position: inside;
+  padding-left: 2em;
+  text-indent: -2em;
+  list-style-position: outside;
 }
 
 /*link selectors */
@@ -574,9 +574,9 @@ text-transform: uppercase;
 
 @media only screen and (max-width: 600px)
 {
-  li {
+/*  li {
     list-style: none;
-  }
+  }*/
 
   a.logo-txt-pages-mld {
     display: block;
