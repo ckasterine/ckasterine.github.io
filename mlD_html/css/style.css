@@ -22,8 +22,8 @@ li {
   font-size: initial;
   font-weight:300;
   line-height: 1.5em;
-/*  padding-left: 1em;
-  text-indent: -1.5em;*/
+  padding-left: 2em;
+  text-indent: 2em;
   text-transform: none;
   color: #333333;
 }
