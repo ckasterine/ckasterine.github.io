@@ -17,10 +17,13 @@ label {
 }
 
 li {
+  /*display: block;*/
   font-family: 'Open Sans', sans-serif;
   font-size: initial;
   font-weight:300;
   line-height: 1.5em;
+  padding-left: 1em;
+  text-indent: -1.5em;
   text-transform: none;
   color: #333333;
 }
@@ -62,8 +65,27 @@ p {
   color: #333333;
 }
 
+table {
+  margin: auto; 
+  font-family: 'Open Sans', "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+    width:10%;
+    /*border: 1px solid #dddddd;*/
+    text-align: left;
+    padding: .25em;
+}
+
 ul {
-  list-style-type: disc;
+  list-style: disc;
+  /*padding-left: 2em;
+  text-indent: -2em;*/
   list-style-position: inside;
 }
 
